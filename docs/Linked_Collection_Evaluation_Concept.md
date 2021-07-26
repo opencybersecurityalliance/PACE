@@ -55,3 +55,7 @@ MQTT Transfer Specification*):
    Repository, the PCS will publish a final notification message to `oc2/ntf` indicating completion.
 1.  The Manager/Ochestator detects the final notification message and records that the _ad hoc_ posture attribute collection activity has concluded.
 2.  The PES detects the final notification message and treats it as a "virtual command", performs a posture evaluation against the newly-collected attributes, and persists the results to an Evaluation Results Repository.
+
+The scenario is illustrated in the sequence diagram below:
+
+![sequence](./seq-linked-pcs-pes.png)

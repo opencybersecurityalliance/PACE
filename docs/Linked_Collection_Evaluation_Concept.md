@@ -59,3 +59,61 @@ MQTT Transfer Specification*):
 The scenario is illustrated in the sequence diagram below:
 
 ![sequence](./seq-linked-pcs-pes.png)
+
+
+PlantUML source for sequence diagram
+```
+@startuml
+' PlantUML source to generate sequence diagram:
+' *************************
+PACE Scenario: Linked Collection / Evaluation
+' *************************
+' Use with PlantUML.com's online server
+' http://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000
+' Paste this code in and use submit button to 
+' regenerate the diagram
+'
+' Select PNG by diagram to get clean image file to download / embed 
+'
+' PlantUML help for sequence diagram formatting is at 
+' https://plantuml.com/sequence-diagram
+
+
+Title PACE Scenario: Linked Collection / Evaluation
+hide footbox
+skinparam sequenceMessageAlign direction
+participant Orchestrator as O
+participant PCS as C
+participant PES as E
+participant Repositories as R
+
+' Use leading "/" to align tops of notes
+note over O: Manager/Orchestrator\n(OIF-Orchestrator) 
+/ note over C: Posture\nCollection\nService
+/ note over E: Posture\nEvaluation\nService
+/ note over R: Respositories
+O -> C : **query(Collection Instructions)**\n""oc2/cmd/ap/pes""
+Activate C
+O -> E : **query(Collection Instructions)**\n""oc2/cmd/ap/pes""
+note right of E: Treated as\n"on deck"\nindicator
+C -> O : **ack**\n""oc2/rsp""
+C -> C : <size:14>Collection Activities</size>
+C -> O : **notification(progress)**\n""oc2/ntf""
+C -> E : **notification(progress)**\n""oc2/ntf""
+C -> R : **store (Posture Attribute Payload)**\n""oc2/cmd/ap/repo""
+C -> O : **notification(complete)**\n""oc2/ntf""
+C -> E : **notification(complete)**\n""oc2/ntf""
+note over O: Manager/Orchestrator\nrecords collect\nactivity complete
+/ note right of E: treated as\nvirtual "evaluate"\ncommand
+deactivate C
+
+activate E
+E -> R: Request: Attributes
+R -> E: Return: Attributes
+E -> E: <size:14>Evaluation Activities</size>
+E -> R : **store (Posture Evaluation Payload)**\n""oc2/cmd/ap/repo""
+deactivate E
+@enduml
+```
+
+

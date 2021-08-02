@@ -66,7 +66,7 @@ PlantUML source for sequence diagram
 @startuml
 ' PlantUML source to generate sequence diagram:
 ' *************************
-PACE Scenario: Linked Collection / Evaluation
+' PACE Scenario: Linked Collection / Evaluation
 ' *************************
 ' Use with PlantUML.com's online server
 ' http://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000

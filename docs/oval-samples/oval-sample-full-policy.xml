@@ -1,0 +1,138 @@
+<oval_definitions xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" xmlns:oval="http://oval.mitre.org/XMLSchema/oval-common-5" xmlns:oval-def="http://oval.mitre.org/XMLSchema/oval-definitions-5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://oval.mitre.org/XMLSchema/oval-definitions-5 https://oval.cisecurity.org/schemas/validator-oval-definitions-5.11.2.xsd">
+
+    <generator>
+        <oval:product_name>Center for Internet Security - Optimus</oval:product_name>
+        <oval:schema_version>5.11.2</oval:schema_version>
+        <oval:timestamp>2021-07-12T19:21:15.928Z</oval:timestamp>
+    </generator>
+
+    <definitions>
+        <definition class="compliance" id="oval:org.cisecurity.benchmarks.windows_10:def:1753251" version="1">
+            <metadata>
+                <title>(L1) Ensure 'Minimum password length' is set to '14 or more character(s)'</title>
+                <reference ref_id="xccdf_org.cisecurity.benchmarks_rule_1.1.4_L1_Ensure_Minimum_password_length_is_set_to_14_or_more_characters" ref_url="http://benchmarks.cisecurity.org" source="xccdf_org.cisecurity.benchmarks_rule_1.1.4_L1_Ensure_Minimum_password_length_is_set_to_14_or_more_characters"/>
+                <description>(L1) Ensure 'Minimum password length' is set to '14 or more character(s)'</description>
+            </metadata>
+            <criteria operator="AND">
+                <criterion test_ref="oval:org.cisecurity.benchmarks.windows_10:tst:1753251"/>
+            </criteria>
+        </definition>
+        <definition class="compliance" id="oval:org.cisecurity.benchmarks.windows_10:def:1753400" version="1">
+            <metadata>
+                <title>(L1) Ensure 'Interactive logon: Do not require CTRL+ALT+DEL' is set to 'Disabled'</title>
+                <reference ref_id="xccdf_org.cisecurity.benchmarks_rule_2.3.7.1_L1_Ensure_Interactive_logon_Do_not_require_CTRLALTDEL_is_set_to_Disabled" ref_url="http://benchmarks.cisecurity.org" source="xccdf_org.cisecurity.benchmarks_rule_2.3.7.1_L1_Ensure_Interactive_logon_Do_not_require_CTRLALTDEL_is_set_to_Disabled"/>
+                <description>(L1) Ensure 'Interactive logon: Do not require CTRL+ALT+DEL' is set to 'Disabled'</description>
+            </metadata>
+            <criteria operator="AND">
+                <criterion test_ref="oval:org.cisecurity.benchmarks.windows_10:tst:1753400"/>
+            </criteria>
+        </definition>
+        <definition class="compliance" id="oval:org.cisecurity.benchmarks.windows_10:def:1753575" version="1">
+            <metadata>
+                <title>(L1) Ensure 'User Account Control: Run all administrators in Admin Approval Mode' is set to 'Enabled'</title>
+                <reference ref_id="xccdf_org.cisecurity.benchmarks_rule_2.3.17.6_L1_Ensure_User_Account_Control_Run_all_administrators_in_Admin_Approval_Mode_is_set_to_Enabled" ref_url="http://benchmarks.cisecurity.org" source="xccdf_org.cisecurity.benchmarks_rule_2.3.17.6_L1_Ensure_User_Account_Control_Run_all_administrators_in_Admin_Approval_Mode_is_set_to_Enabled"/>
+                <description>(L1) Ensure 'User Account Control: Run all administrators in Admin Approval Mode' is set to 'Enabled'</description>
+            </metadata>
+            <criteria operator="AND">
+                <criterion test_ref="oval:org.cisecurity.benchmarks.windows_10:tst:1753575"/>
+            </criteria>
+        </definition>
+        <definition class="compliance" id="oval:org.cisecurity.benchmarks.windows_10:def:1753246" version="1">
+            <metadata>
+                <title>(L1) Ensure 'Access Credential Manager as a trusted caller' is set to 'No One'</title>
+                <reference ref_id="xccdf_org.cisecurity.benchmarks_rule_2.2.1_L1_Ensure_Access_Credential_Manager_as_a_trusted_caller_is_set_to_No_One" ref_url="http://benchmarks.cisecurity.org" source="xccdf_org.cisecurity.benchmarks_rule_2.2.1_L1_Ensure_Access_Credential_Manager_as_a_trusted_caller_is_set_to_No_One"/>
+                <description>(L1) Ensure 'Access Credential Manager as a trusted caller' is set to 'No One'</description>
+            </metadata>
+            <criteria operator="AND">
+                <criterion test_ref="oval:org.cisecurity.benchmarks.windows_10:tst:1753246"/>
+            </criteria>
+        </definition>
+        <definition class="compliance" id="oval:org.cisecurity.benchmarks.windows_10:def:1753248" version="1">
+            <metadata>
+                <title>(L1) Ensure 'Access this computer from the network' is set to 'Administrators, Remote Desktop Users'</title>
+                <reference ref_id="xccdf_org.cisecurity.benchmarks_rule_2.2.2_L1_Ensure_Access_this_computer_from_the_network_is_set_to_Administrators_Remote_Desktop_Users" ref_url="http://benchmarks.cisecurity.org" source="xccdf_org.cisecurity.benchmarks_rule_2.2.2_L1_Ensure_Access_this_computer_from_the_network_is_set_to_Administrators_Remote_Desktop_Users"/>
+                <description>(L1) Ensure 'Access this computer from the network' is set to 'Administrators, Remote Desktop Users'</description>
+            </metadata>
+            <criteria operator="AND">
+                <criterion test_ref="oval:org.cisecurity.benchmarks.windows_10:tst:1753248"/>
+            </criteria>
+        </definition>
+        <definition class="compliance" id="oval:org.cisecurity.benchmarks.windows_10:def:1753359" version="1">
+            <metadata>
+                <title>(L1) Ensure 'Audit Credential Validation' is set to 'Success and Failure'</title>
+                <reference ref_id="xccdf_org.cisecurity.benchmarks_rule_17.1.1_L1_Ensure_Audit_Credential_Validation_is_set_to_Success_and_Failure" ref_url="http://benchmarks.cisecurity.org" source="xccdf_org.cisecurity.benchmarks_rule_17.1.1_L1_Ensure_Audit_Credential_Validation_is_set_to_Success_and_Failure"/>
+                <description>(L1) Ensure 'Audit Credential Validation' is set to 'Success and Failure'</description>
+            </metadata>
+            <criteria operator="AND">
+                <criterion test_ref="oval:org.cisecurity.benchmarks.windows_10:tst:1753359"/>
+            </criteria>
+        </definition>
+    </definitions>
+
+    <tests>
+        <passwordpolicy_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="all" check_existence="at_least_one_exists" comment="Ensure 'Min Passwd Len' is 'Greater Than Or Equal' to '14'" id="oval:org.cisecurity.benchmarks.windows_10:tst:1753251" version="1">
+            <object object_ref="oval:org.cisecurity.benchmarks.windows_10:obj:1753251"/>
+            <state state_ref="oval:org.cisecurity.benchmarks.windows_10:ste:1753251"/>
+        </passwordpolicy_test>
+        <registry_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="all" check_existence="at_least_one_exists" comment="Ensure 'DisableCAD' is 'Windows: Registry Value' to '0'" id="oval:org.cisecurity.benchmarks.windows_10:tst:1753400" version="1">
+            <object object_ref="oval:org.cisecurity.benchmarks.windows_10:obj:1753400"/>
+            <state state_ref="oval:org.cisecurity.benchmarks.windows_10:ste:1753400"/>
+        </registry_test>
+        <registry_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="all" check_existence="at_least_one_exists" comment="Ensure 'EnableLUA' is 'Windows: Registry Value' to '1'" id="oval:org.cisecurity.benchmarks.windows_10:tst:1753575" version="1">
+            <object object_ref="oval:org.cisecurity.benchmarks.windows_10:obj:1753575"/>
+            <state state_ref="oval:org.cisecurity.benchmarks.windows_10:ste:1753575"/>
+        </registry_test>
+        <userright_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="all" check_existence="none_exist" comment="Ensure 'setrustedcredmanaccessnameright' is set to 'No One'" id="oval:org.cisecurity.benchmarks.windows_10:tst:1753246" version="1">
+            <object object_ref="oval:org.cisecurity.benchmarks.windows_10:obj:1753246"/>
+        </userright_test>
+        <userright_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="all" check_existence="at_least_one_exists" comment="Ensure 'senetworklogonright' is set to 'Administrators, Remote Desktop Users'" id="oval:org.cisecurity.benchmarks.windows_10:tst:1753248" version="1">
+            <object object_ref="oval:org.cisecurity.benchmarks.windows_10:obj:1753248"/>
+            <state state_ref="oval:org.cisecurity.benchmarks.windows_10:ste:1753248"/>
+        </userright_test>
+        <auditeventpolicysubcategories_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="all" check_existence="at_least_one_exists" comment="Ensure 'credential_validation' is 'Equals' to 'AUDIT_SUCCESS_FAILURE'" id="oval:org.cisecurity.benchmarks.windows_10:tst:1753359" version="1">
+            <object object_ref="oval:org.cisecurity.benchmarks.windows_10:obj:1753359"/>
+            <state state_ref="oval:org.cisecurity.benchmarks.windows_10:ste:1753359"/>
+        </auditeventpolicysubcategories_test>
+    </tests>
+
+    <objects>
+        <passwordpolicy_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" comment="Ensure 'Min Passwd Len' is 'Greater Than Or Equal' to '14'" id="oval:org.cisecurity.benchmarks.windows_10:obj:1753251" version="1"/>
+        <registry_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" comment="Ensure 'DisableCAD' is 'Windows: Registry Value' to '0'" id="oval:org.cisecurity.benchmarks.windows_10:obj:1753400" version="1">
+            <hive>HKEY_LOCAL_MACHINE</hive>
+            <key operation="equals">Software\Microsoft\Windows\CurrentVersion\Policies\System</key>
+            <name>DisableCAD</name>
+        </registry_object>
+        <registry_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" comment="Ensure 'EnableLUA' is 'Windows: Registry Value' to '1'" id="oval:org.cisecurity.benchmarks.windows_10:obj:1753575" version="1">
+            <hive>HKEY_LOCAL_MACHINE</hive>
+            <key operation="equals">Software\Microsoft\Windows\CurrentVersion\Policies\System</key>
+            <name>EnableLUA</name>
+        </registry_object>
+        <userright_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" comment="Ensure 'setrustedcredmanaccessnameright' is set to 'No One'" id="oval:org.cisecurity.benchmarks.windows_10:obj:1753246" version="1">
+            <userright operation="equals">SE_TRUSTED_CREDMAN_ACCESS_NAME</userright>
+        </userright_object>
+        <userright_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" comment="Ensure 'senetworklogonright' is set to 'Administrators, Remote Desktop Users'" id="oval:org.cisecurity.benchmarks.windows_10:obj:1753248" version="1">
+            <userright operation="equals">SE_NETWORK_LOGON_NAME</userright>
+        </userright_object>
+        <auditeventpolicysubcategories_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" comment="Ensure 'credential_validation' is 'Equals' to 'AUDIT_SUCCESS_FAILURE'" id="oval:org.cisecurity.benchmarks.windows_10:obj:1753359" version="1"/>
+    </objects>
+
+    <states>
+        <passwordpolicy_state xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" comment="Ensure 'Min Passwd Len' is 'Greater Than Or Equal' to '14'" id="oval:org.cisecurity.benchmarks.windows_10:ste:1753251" version="1">
+            <min_passwd_len datatype="int" operation="greater than or equal">14</min_passwd_len>
+        </passwordpolicy_state>
+        <registry_state xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" comment="Ensure 'DisableCAD' is 'Windows: Registry Value' to '0'" id="oval:org.cisecurity.benchmarks.windows_10:ste:1753400" version="1">
+            <type>reg_dword</type>
+            <value datatype="int" operation="equals">0</value>
+        </registry_state>
+        <registry_state xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" comment="Ensure 'EnableLUA' is 'Windows: Registry Value' to '1'" id="oval:org.cisecurity.benchmarks.windows_10:ste:1753575" version="1">
+            <type>reg_dword</type>
+            <value datatype="int" operation="equals">1</value>
+        </registry_state>
+        <userright_state xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" comment="Ensure 'senetworklogonright' is set to 'Administrators, Remote Desktop Users'" id="oval:org.cisecurity.benchmarks.windows_10:ste:1753248" version="1">
+            <trustee_sid datatype="string" operation="pattern match">S-1-5-32-(544|555)</trustee_sid>
+        </userright_state>
+        <auditeventpolicysubcategories_state xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" comment="Ensure 'credential_validation' is 'Equals' to 'AUDIT_SUCCESS_FAILURE'" id="oval:org.cisecurity.benchmarks.windows_10:ste:1753359" version="1">
+            <credential_validation datatype="string" operation="equals">AUDIT_SUCCESS_FAILURE</credential_validation>
+        </auditeventpolicysubcategories_state>
+    </states>
+</oval_definitions>

@@ -1,0 +1,29 @@
+<oval_definitions xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" xmlns:oval="http://oval.mitre.org/XMLSchema/oval-common-5" xmlns:oval-def="http://oval.mitre.org/XMLSchema/oval-definitions-5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://oval.mitre.org/XMLSchema/oval-definitions-5 https://oval.cisecurity.org/schemas/validator-oval-definitions-5.11.2.xsd">
+    
+    <generator>
+        <oval:product_name>Center for Internet Security - Optimus</oval:product_name>
+        <oval:schema_version>5.11.2</oval:schema_version>
+        <oval:timestamp>2021-07-12T19:21:15.928Z</oval:timestamp>
+    </generator>
+    
+    <objects>
+        <passwordpolicy_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" comment="Ensure 'Min Passwd Len' is 'Greater Than Or Equal' to '14'" id="oval:org.cisecurity.benchmarks.windows_10:obj:1753251" version="1"/>
+        <registry_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" comment="Ensure 'DisableCAD' is 'Windows: Registry Value' to '0'" id="oval:org.cisecurity.benchmarks.windows_10:obj:1753400" version="1">
+            <hive>HKEY_LOCAL_MACHINE</hive>
+            <key operation="equals">Software\Microsoft\Windows\CurrentVersion\Policies\System</key>
+            <name>DisableCAD</name>
+        </registry_object>
+        <registry_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" comment="Ensure 'EnableLUA' is 'Windows: Registry Value' to '1'" id="oval:org.cisecurity.benchmarks.windows_10:obj:1753575" version="1">
+            <hive>HKEY_LOCAL_MACHINE</hive>
+            <key operation="equals">Software\Microsoft\Windows\CurrentVersion\Policies\System</key>
+            <name>EnableLUA</name>
+        </registry_object>
+        <userright_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" comment="Ensure 'setrustedcredmanaccessnameright' is set to 'No One'" id="oval:org.cisecurity.benchmarks.windows_10:obj:1753246" version="1">
+            <userright operation="equals">SE_TRUSTED_CREDMAN_ACCESS_NAME</userright>
+        </userright_object>
+        <userright_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" comment="Ensure 'senetworklogonright' is set to 'Administrators, Remote Desktop Users'" id="oval:org.cisecurity.benchmarks.windows_10:obj:1753248" version="1">
+            <userright operation="equals">SE_NETWORK_LOGON_NAME</userright>
+        </userright_object>
+        <auditeventpolicysubcategories_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" comment="Ensure 'credential_validation' is 'Equals' to 'AUDIT_SUCCESS_FAILURE'" id="oval:org.cisecurity.benchmarks.windows_10:obj:1753359" version="1"/>
+    </objects>
+</oval_definitions>

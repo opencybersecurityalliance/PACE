@@ -1,0 +1,3422 @@
+{
+  "id": "bundle--33c20f98-1632-47fc-a1c5-8cf18b8e75d2",
+  "objects": [
+    {
+      "created": "2021-01-07T21:08:44.000Z",
+      "definition": {
+        "statement": "DISCLAIMER: This report is provided \"as is\" for informational purposes only. The Department of Homeland Security (DHS) does not provide any warranties of any kind regarding any information contained within. The DHS does not endorse any commercial product or service, referenced in this bulletin or otherwise. This document is distributed as TLP:WHITE: Disclosure is not limited. For more information on the Traffic Light Protocol, see http://www.us-cert.gov/tlp."
+      },
+      "definition_type": "statement",
+      "id": "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "spec_version": "2.1",
+      "type": "marking-definition"
+    },
+    {
+      "count": 1,
+      "created": "2020-12-13T00:00:00.000Z",
+      "id": "sighting--02b2bf28-3456-4048-a39c-47b0b5088809",
+      "modified": "2020-12-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--ffd6019c-75dd-4f18-9408-959b7101f4ae",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2020-12-13T00:00:00.000Z",
+      "id": "sighting--7fb454f1-1d52-4ee5-957e-81021c415bd4",
+      "modified": "2020-12-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--ef68af9d-79cd-4af3-9e16-dfb6b91ff1e6",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2020-12-08T00:00:00.000Z",
+      "id": "sighting--2d0e9fbc-0556-4bed-8682-480d32f663a9",
+      "modified": "2020-12-08T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--f5c68854-bf6b-4cd4-b095-08a013ee68d5",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2020-12-08T00:00:00.000Z",
+      "id": "sighting--e15e8d5f-712a-462b-87e1-949f340b1c51",
+      "modified": "2020-12-08T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--d8bea6b9-0dad-4859-8c03-8cd47d27e68e",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2020-12-08T00:00:00.000Z",
+      "id": "sighting--2c1bedee-8835-4af3-a33f-bc9bb9939e79",
+      "modified": "2020-12-08T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--427f4bbd-0354-4783-806a-97d274ede819",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2020-02-01T00:00:00.000Z",
+      "id": "sighting--eb4ca1e7-651f-422c-a5d5-0f13694cb0e4",
+      "modified": "2020-02-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--1be0ec01-4de8-40ef-ac7a-d8eac7bcbc42",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2020-12-13T00:00:00.000Z",
+      "id": "sighting--eb1411e6-6901-4636-b03c-6e60188ac678",
+      "modified": "2020-12-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--021ee19e-d97e-4a0e-ad47-1445fcb6aea1",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--33399d9f-0c65-43bf-a79b-7ee441c34be1",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--279823cf-a1d0-49cb-87bc-2a27fc28b50f",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--edbd6712-3e65-4710-be0b-e7b5897fdd2e",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--9c30b4f0-69ac-4e48-8510-2041cb91c2da",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2020-12-13T00:00:00.000Z",
+      "id": "sighting--775cf5e4-927c-4092-a9e4-df0f0babcea2",
+      "modified": "2020-12-13T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--6b66268e-f0d6-49a7-afb1-199d74e8a0ee",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--0243b6fe-2c62-4b78-9e67-29297b52ef2a",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--50506e57-fb7b-4088-b846-7ffb6465e8dd",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2020-12-08T00:00:00.000Z",
+      "id": "sighting--d77f25f6-ebe7-4c23-b3a8-7589567edca8",
+      "modified": "2020-12-08T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--5df3d69a-135b-4c2b-8691-c6e3b3398b7a",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2020-12-08T00:00:00.000Z",
+      "id": "sighting--72edd72c-e2aa-4c3c-ad52-0fc8481c8a7b",
+      "modified": "2020-12-08T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--deaac903-3577-4667-935b-d5435000fbef",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2020-12-08T00:00:00.000Z",
+      "id": "sighting--6d45e96d-b57c-437a-bc6c-b87138f96868",
+      "modified": "2020-12-08T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--b696fad5-df5c-4e26-9579-a6a721128d85",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2020-12-08T00:00:00.000Z",
+      "id": "sighting--3f6fcaae-d778-4a3f-a823-d71ccb5a3e6e",
+      "modified": "2020-12-08T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--66e64ead-31aa-4c26-a943-129a23e8334f",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2020-12-08T00:00:00.000Z",
+      "id": "sighting--3471f4c8-856e-4db8-9904-52aec7cbba85",
+      "modified": "2020-12-08T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--ffd31996-98c0-41e5-a01c-d31c30b6188b",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2020-12-08T00:00:00.000Z",
+      "id": "sighting--74d62595-1b21-4f90-a2e2-27538b747929",
+      "modified": "2020-12-08T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--55d212aa-5879-4372-9b1e-aff54e5ec1f9",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2020-12-08T00:00:00.000Z",
+      "id": "sighting--9f8a0361-8f29-464c-bfe6-6e1696983365",
+      "modified": "2020-12-08T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--c4768f14-a3d2-4706-8258-5c6e0cff3a35",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2020-12-08T00:00:00.000Z",
+      "id": "sighting--8dc7eafd-fcac-4b33-bf76-012c0aaf99d1",
+      "modified": "2020-12-08T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--d9509a26-ed91-48c6-9266-bdf7354d0e44",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2020-12-08T00:00:00.000Z",
+      "id": "sighting--650a64db-0d1a-4b3a-b59b-08f8333d48be",
+      "modified": "2020-12-08T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--a0bd3b2e-ab07-48c9-8b7a-96cd90c92d6e",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2020-12-08T00:00:00.000Z",
+      "id": "sighting--43bbc016-6839-4115-aea9-5682906f9a72",
+      "modified": "2020-12-08T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--b475f202-da01-4c03-855b-c09e6480f217",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2020-02-01T00:00:00.000Z",
+      "id": "sighting--8442845a-6a5a-4947-8896-6cfb1feb20d6",
+      "modified": "2020-02-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--c72542f6-e639-4a3c-ad8e-c9418a3bd51c",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2020-02-01T00:00:00.000Z",
+      "id": "sighting--64c71c4c-395a-4bd4-86f4-b28a121be893",
+      "modified": "2020-02-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--351cfeb6-8750-4ac5-b4b0-768bc76f3e73",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2020-03-01T00:00:00.000Z",
+      "id": "sighting--61f5aa82-bda1-42e6-90d6-fd924d4e9ce0",
+      "modified": "2020-03-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--e5e5bd7e-857e-4bf1-bcdc-923c11040210",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2020-03-01T00:00:00.000Z",
+      "id": "sighting--391a6041-feff-409e-beac-19a33a8c5879",
+      "modified": "2020-03-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--1eaed4a8-91be-4ba1-89c0-5aa7b703e731",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--53a93051-3d59-4c84-a421-17d273aba3ec",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--f570ee69-6f18-4277-a513-f155f971f408",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--8dd7fb5a-aab6-4cf2-a426-df8bb922805f",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--420fe8b7-7fc5-4f77-a9fd-8540f1e2ce15",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--6db63963-6528-4e06-aad4-738dbc2fdbe5",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--21ee9658-63d8-4aeb-8f94-e2f5f607f7ef",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--b6b5cbc3-dcb3-4224-b6af-38b2e617e2a4",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--6ca14285-a20d-4e7d-aa09-bd5217d268f4",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--8dd89cee-5f82-40e0-987e-0166f8608ff6",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--50629245-5ed8-440e-ac5a-2dc7387bdba3",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--96e05ba6-a71a-43c7-af80-efa572a15220",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--28e02728-f244-4d2f-8973-34568892974f",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--8849f724-314a-4c63-b0b3-221852e2ecd5",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--80783b3f-c27e-4f86-927a-0d335faec3f5",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--7a5fa201-f649-4a7c-94eb-029b86fbb305",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--5698ed53-2dbc-48de-bde1-3b6b186b21e1",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--fcf29e14-f180-4dd6-b1fc-4c69b4587adb",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--a09dfb19-bb3a-44b5-a49e-eb7118e2f5c8",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--5f5b5a93-c679-4980-8442-bf0be727b0ee",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--6c0cabfb-d25b-4617-972d-e6f79ab9c794",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--e5cc03a4-1cf8-4e57-83b6-f0d982a06bab",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--f4e94ab0-65b5-433b-8831-27bae4e55472",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--842b1ba6-abf8-4f5f-bb20-61d285c0b000",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--33e09439-7bb9-4610-be56-d903f17c0b52",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--73be5f71-8a67-452d-aef5-2be1d69b564d",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--cd85d19e-f0aa-4748-9ba6-919f2e12bd51",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--b3e4c215-656e-4073-9daa-e3502bd8fd5c",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--a2977802-08fb-4f4e-9a44-a8a6f0263669",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--500ab94c-f51e-4d33-b95e-de3d4d557bd8",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--4dfa64c1-0838-4ade-8efb-421834c313ec",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--a4113579-f21e-4ebc-a3e4-86fd6246d321",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--bd08a364-3ece-4b97-aac0-4abf70e6d7fd",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--f16bb4d3-3d0a-4564-95d4-00625bf7d364",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--f589937d-fe7b-4077-b0af-6d8c4bf718f0",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--0ff22e0e-e315-4e01-b4cc-af28d4f34ca9",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--d04ee03e-51c0-4cc6-84e9-8544265caea0",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--dddd1758-01ee-4dae-814c-8781c0514647",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--5cdfa113-05ca-4f8a-a60f-7025c5172f7a",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--6d97f136-15c5-41ad-9a98-24b0da8a550a",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--a77356ad-fb7a-45f8-9bf8-71612aa1ac64",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--9e26001e-d122-40b6-91fe-60e238794653",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--9b7ea804-9ac7-4f99-98f9-bb48ea4b9288",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--ffcf7113-2b2c-454b-8562-5878c7dfac3d",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--d107d2f8-977d-4c67-a471-2b5738ac8b22",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--7f4477ab-d327-4811-9162-f4d331f9f576",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--300a148b-ff7f-403a-b2ab-7b008351ffda",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--7dbe7764-7eee-4588-8576-944e98132c29",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--bfe153e3-59ad-4e38-988d-dcb1e9d9c91e",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--0b020498-7002-4915-9790-c01b59e86dac",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--26357d49-cd5c-43d0-a1a6-d294b458eba3",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--ac0f853a-e1a6-4d9a-b463-a7a5a39ec445",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--fe362f62-05bd-4700-98ce-d457f7a14074",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--7a2a6de8-678b-4913-8997-08fe13218acc",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--88f091b2-6fd3-4456-9e89-89f56bc54dad",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--bbca35a6-15c9-4183-8ce0-c394c414550a",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--c734c7fb-7c0c-4de7-b728-d1f732c8ba23",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--279c4880-65cd-4b4d-8a2e-cfe05a5b30fe",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--fb387ebf-d32b-477f-9b4b-b8ecbc1dac3c",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--cda3ea9a-3da8-4671-885b-a1a808bf2c96",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--22a98fcb-985a-4e27-b06a-87d0819faeac",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--d9de6497-5cd2-4205-8245-c835625acfaa",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--a420c9c3-ba32-48c7-898b-6f66e7a2be8a",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--eed92bb0-71b5-4d6c-9f6c-c498de544803",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--b5beeece-261d-4b1f-8d40-945c1bd62cef",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--9fbd4e64-3660-4149-a0fa-e692fc0cca87",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--5e8074af-889b-4a85-b490-29887ec483dd",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--df1e1cce-bb54-4f42-86d9-332eceb6cd26",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--8a540ee4-f296-4349-9590-405cf441e892",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--65426742-b313-4c72-a7d5-bf95ab9d9e97",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--cf2497b6-8b31-4dc8-8f48-7754d4a32c77",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--9b96bf7e-9d2b-4c42-9963-a9a1a0cab17f",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--4d119e03-cf88-4fb6-a365-d18c8e7a4e37",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--ea7b91ad-ea48-4b9f-8d7a-7a47a39a6b3b",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--bc3725b1-8327-424f-bd14-c2af2c478c81",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--f1214d62-ba5b-4cb5-97a1-3e153e0438e6",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--145bd5fa-f9d2-4045-86d6-2d88481e905c",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--7ad104ab-dd3d-4be6-a07c-a3e9e3959e63",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--5ed3941d-4d04-405b-b59b-cb9c17ebd35b",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--4f8a1f02-20f5-47dc-b014-37aaeae80081",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--dce1727b-e721-4909-9633-56637a9ff123",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--538732cc-9ae4-43f1-968c-b3474cdc0c93",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--99b1ab38-0df7-4ea6-be62-71c4b03ad9b8",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--c8929e1a-7e8f-43b5-ab8b-6015c15530b3",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--71c751c4-887a-4085-af31-bfa3258c85a0",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--dd827089-b9ad-467a-ab0f-8287fbf142f2",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--0c788476-7961-4017-81c1-1facd08ca86d",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--5e8eeaae-1cd2-4603-9a2f-40a6005a0ff0",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--eb695719-d618-4bcc-b042-9b71ad20f70c",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--4cb166dd-e7ba-41df-89dc-1041374f57f7",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--f30a3966-acc4-40d1-a5f1-79d8fe1758e6",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--d5b9e20c-0860-4adf-a4cb-0e4e4f5a0458",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--7db56eb2-7d06-4be6-93de-94083e5581c3",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--c80b3542-fcbb-4ad9-bdeb-6c5b1dde3d65",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--bfdae46e-7e8b-4d27-a7b2-e7d5ae7f5354",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--be6e2390-340d-421d-936a-8c2a2db9d02b",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--346ed9bb-4924-418a-832f-fde0b03bc96a",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--4a1e368a-3ca3-4145-9d0e-e68b9adebff4",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--d8e8f41a-b80e-4a84-8260-695321287ccc",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--e0bcf42f-46fc-461a-a18d-f29cbd3e63b0",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--f34c5b7b-efaf-4531-9cab-364c9e9a1c61",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--0eb0ac40-091e-445f-a012-7e68eefc5a9f",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--19bb94f0-d118-4df3-8330-05aef63f82b5",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--888ffc5e-44a5-41b4-9c1f-bc97b4077c81",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--32f6a46d-70a0-4749-a3c8-917d0649169b",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--c02f9bae-5a4c-42e7-9374-cd1fe954939f",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--da665e28-913a-4f57-854d-50feb4ca8e38",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--787929f9-2b5e-41ce-bc70-2bad5aa9b315",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--e9377eab-df69-455c-82f0-f51db166a3e5",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--f0bd3521-9eff-478e-9d01-865ee82de90b",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--71a6ce9e-ad2b-4029-bf65-1cfdd0d93db6",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--404df877-0d77-4637-b385-019d6d9b72cf",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--7a8e550c-8538-472f-8289-e382d1f61879",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2020-03-01T00:00:00.000Z",
+      "id": "sighting--dd683a00-9344-46f4-9367-7631e1223cd2",
+      "modified": "2020-03-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--2f5ca124-9657-4a0a-af57-4f0746e28fc8",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--ac31eea0-677a-4a72-a497-917f60b88349",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--add42f27-9592-40a0-bd48-19f1d04ee45a",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--eb733613-c06e-436e-af9c-c20e53026eb7",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--45b5748b-3ed8-4b39-8626-05ae91a3f404",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--1063af9c-51de-4cbe-bc70-91351fc9e580",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--c71fed23-1714-4990-900a-6f98efebde81",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--9a10b21e-5e7d-484a-8458-70aa451c15bf",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--3da81914-0053-4285-ab51-d5859ccec093",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--802ace34-8223-4004-b7f4-56f0434f3cff",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--a378f7a0-1cc2-4831-a10b-d6923cf25c34",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--6f9a8ce4-bf28-47ef-beb2-2ddf86274300",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--b6ff3724-9787-4b71-96f5-e8a6280ad6ae",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--283e60df-4ef7-4870-abd1-0c36fc9373e1",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--d64f8d60-faac-47c3-ba4b-c05f04a9c71a",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--a141e08e-6a49-461d-a810-2235377c46c5",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--b6cf7873-133d-416a-9e2b-a874e680ce4e",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--908cb156-8bca-4c84-918a-4d90903bc859",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--91b77b7a-8998-47a0-8992-e4018a95916a",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--13c5a921-49a3-4213-be85-453dbee44fb2",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--c0dcf40a-41f7-4b2f-8f36-4ce973ad0347",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--914de08b-e728-43dd-8322-431dc390b720",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--0a7e18df-0650-484a-8755-59625f899846",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--adaf610f-ca9a-4c22-b495-27c813154f34",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--17af5ac0-af96-423c-90c8-b0a1c341677c",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--44d87479-4e9a-4dc0-8a05-b2c6500915bd",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--dca7fb63-f714-47ea-9d56-10c78f4e9dbd",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2019-11-01T00:00:00.000Z",
+      "id": "sighting--4846555a-09b5-4173-a816-e81ca19f06aa",
+      "modified": "2019-11-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--7cc76354-ca4f-4415-a3ce-32e266912ad9",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2010-01-01T00:00:00.000Z",
+      "id": "sighting--bd222d39-1cc0-415c-8429-ef38e28fc9f7",
+      "modified": "2010-01-01T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--2212be32-ab59-45f1-a062-5244f30dbd96",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "count": 1,
+      "created": "2020-12-08T00:00:00.000Z",
+      "id": "sighting--60caad38-dbae-4808-ba38-7656ac10abac",
+      "modified": "2020-12-08T00:00:00.000Z",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "sighting_of_ref": "indicator--ef2d2142-b417-42f2-bde0-e37d31f72729",
+      "spec_version": "2.1",
+      "summary": false,
+      "type": "sighting"
+    },
+    {
+      "created": "2021-01-07T21:08:44.465Z",
+      "description": "Adversaries may manipulate hardware components in products prior to receipt by a final consumer for the purpose of data or system compromise. By modifying hardware or firmware in the supply chain, adversaries can insert a backdoor into consumer networks that may be difficult to detect and give the adversary a high degree of control over the system. Hardware backdoors may be inserted into various devices, such as servers, workstations, network infrastructure, or peripherals.",
+      "id": "attack-pattern--573227fa-9177-411e-8b93-4f6a67e80c68",
+      "modified": "2021-01-07T21:08:44.465Z",
+      "name": "Initial Access - Supply Chain Compromise - T1195",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "spec_version": "2.1",
+      "type": "attack-pattern"
+    },
+    {
+      "created": "2021-01-07T21:08:44.472Z",
+      "description": "Adversaries may execute a binary, command, or script via a method that interacts with Windows services, such as the Service Control Manager. This can be done by either creating a new service or modifying an existing service.",
+      "id": "attack-pattern--b6aa013c-7e04-45d6-845c-e12253e28897",
+      "modified": "2021-01-07T21:08:44.472Z",
+      "name": "Execution - Service Execution - T1035",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "spec_version": "2.1",
+      "type": "attack-pattern"
+    },
+    {
+      "created": "2021-01-07T21:08:44.477Z",
+      "description": "Code signing provides a level of authenticity on a binary from the developer and a guarantee that the binary has not been tampered with. However, adversaries are known to use code signing certificates to masquerade malware and tools as legitimate binaries. The certificates used during an operation may be created, forged, or stolen by the adversary. Code signing certificates may be used to bypass security policies that require signed code to execute on a system.",
+      "id": "attack-pattern--3b61b10f-8fdb-4d97-b487-1eb29707f928",
+      "modified": "2021-01-07T21:08:44.477Z",
+      "name": "Defense Evasion - Code Signing - T1116",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "spec_version": "2.1",
+      "type": "attack-pattern"
+    },
+    {
+      "created": "2021-01-07T21:08:44.481Z",
+      "description": "Malware, tools, or other non-native files dropped or created on a system by an adversary may leave traces behind as to what was done within a network and how. Adversaries may remove these files over the course of an intrusion to keep their footprint low or remove them at the end as part of the post-intrusion cleanup process.",
+      "id": "attack-pattern--b5e911ce-fa6c-4ad5-8f0c-920934c481fa",
+      "modified": "2021-01-07T21:08:44.481Z",
+      "name": "Defense Evasion - File Deletion - T1107",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "spec_version": "2.1",
+      "type": "attack-pattern"
+    },
+    {
+      "created": "2021-01-07T21:08:44.486Z",
+      "description": "In addition to clearing system logs, an adversary may clear the command history of a compromised account to conceal the actions undertaken during an intrusion. macOS and Linux both keep track of the commands users type in their terminal so that users can retrace what they've done.\n\nThese logs can be accessed in a few different ways. While logged in, this command history is tracked in a file pointed to by the environment variable `HISTFILE`. When a user logs off a system, this information is flushed to a file in the user's home directory called `~/.bash_history`. The benefit of this is that it allows users to go back to commands they've used before in different sessions.\n\nAdversaries can use a variety of methods to prevent their own commands from appear in these logs, such as clearing the history environment variable (`unset HISTFILE`), setting the command history size to zero (`export HISTFILESIZE=0`), manually clearing the history (`history -c`), or deleting the bash history file `rm ~/.bash_history`.",
+      "id": "attack-pattern--006cd0f5-9653-4502-b3f5-f2e1260e2e3f",
+      "modified": "2021-01-07T21:08:44.486Z",
+      "name": "Defense Evasion - Indicator Removal on Host - T1070",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "spec_version": "2.1",
+      "type": "attack-pattern"
+    },
+    {
+      "created": "2021-01-07T21:08:44.491Z",
+      "description": "Adversaries may enumerate files and directories or may search in specific locations of a host or network share for certain information within a file system. Adversaries may use the information from [File and Directory Discovery](https://attack.mitre.org/techniques/T1083) during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.\n\nMany command shell utilities can be used to obtain this information. Examples include `dir`, `tree`, `ls`, `find`, and `locate`. (Citation: Windows Commands JPCERT) Custom tools may also be used to gather file and directory information and interact with the [Native API](https://attack.mitre.org/techniques/T1106).",
+      "id": "attack-pattern--f41b9f88-c25b-4c93-be86-010f9cf8eeb2",
+      "modified": "2021-01-07T21:08:44.491Z",
+      "name": "Discovery - File and Directory Discovery - T1083",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "spec_version": "2.1",
+      "type": "attack-pattern"
+    },
+    {
+      "created": "2021-01-07T21:08:44.495Z",
+      "description": "Adversaries may attempt to get information about running processes on a system. Information obtained could be used to gain an understanding of common software/applications running on systems within the network. Adversaries may use the information from [Process Discovery](https://attack.mitre.org/techniques/T1057) during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.\n\nIn Windows environments, adversaries could obtain details on running processes using the [Tasklist](https://attack.mitre.org/software/S0057) utility via [cmd](https://attack.mitre.org/software/S0106) or `Get-Process` via [PowerShell](https://attack.mitre.org/techniques/T1059/001). Information about processes can also be extracted from the output of [Native API](https://attack.mitre.org/techniques/T1106) calls such as `CreateToolhelp32Snapshot`. In Mac and Linux, this is accomplished with the `ps` command. Adversaries may also opt to enumerate processes via /proc.",
+      "id": "attack-pattern--ef7a620b-87d7-4e85-8bc0-faa042c2faf5",
+      "modified": "2021-01-07T21:08:44.495Z",
+      "name": "Discovery - Process Discovery - T1057",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "spec_version": "2.1",
+      "type": "attack-pattern"
+    },
+    {
+      "created": "2021-01-07T21:08:44.500Z",
+      "description": "Adversaries may interact with the Windows Registry to gather information about the system, configuration, and installed software.\n\nThe Registry contains a significant amount of information about the operating system, configuration, software, and security.(Citation: Wikipedia Windows Registry) Information can easily be queried using the [Reg](https://attack.mitre.org/software/S0075) utility, though other means to access the Registry exist. Some of the information may help adversaries to further their operation within a network. Adversaries may use the information from [Query Registry](https://attack.mitre.org/techniques/T1012) during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+      "id": "attack-pattern--ca3acb7d-f038-4197-8554-ab1e72b65faa",
+      "modified": "2021-01-07T21:08:44.500Z",
+      "name": "Discovery - Query Registry - T1012",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "spec_version": "2.1",
+      "type": "attack-pattern"
+    },
+    {
+      "created": "2021-01-07T21:08:44.505Z",
+      "description": "Adversaries may attempt to get a listing of security software, configurations, defensive tools, and sensors that are installed on the system. This may include things such as local firewall rules and anti-virus. Adversaries may use the information from Security Software Discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+      "id": "attack-pattern--2655cad5-b083-4062-8a2b-2f9c10597354",
+      "modified": "2021-01-07T21:08:44.505Z",
+      "name": "Discovery - Security Software Discovery - T1063",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "spec_version": "2.1",
+      "type": "attack-pattern"
+    },
+    {
+      "created": "2021-01-07T21:08:44.509Z",
+      "description": "Adversaries may attempt to get a listing of security software, configurations, defensive tools, and sensors that are installed on a system or in a cloud environment. This may include things such as firewall rules and anti-virus. Adversaries may use the information from [Security Software Discovery](https://attack.mitre.org/techniques/T1518/001) during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.\n\nExample commands that can be used to obtain security software information are [netsh](https://attack.mitre.org/software/S0108), `reg query` with [Reg](https://attack.mitre.org/software/S0075), `dir` with [cmd](https://attack.mitre.org/software/S0106), and [Tasklist](https://attack.mitre.org/software/S0057), but other indicators of discovery behavior may be more specific to the type of software or security system the adversary is looking for. It is becoming more common to see macOS malware perform checks for LittleSnitch and KnockKnock software.\n\nAdversaries may also utilize cloud APIs to discover the configurations of firewall rules within an environment.(Citation: Expel IO Evil in AWS)",
+      "id": "attack-pattern--70e2fcad-4ac6-47f1-8868-5967817685ae",
+      "modified": "2021-01-07T21:08:44.509Z",
+      "name": "Discovery - Software Discovery - T1518",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "spec_version": "2.1",
+      "type": "attack-pattern"
+    },
+    {
+      "created": "2021-01-07T21:08:44.513Z",
+      "description": "Adversaries may encode data to make the content of command and control traffic more difficult to detect. Command and control (C2) information can be encoded using a standard data encoding system. Use of data encoding may adhere to existing protocol specifications and includes use of ASCII, Unicode, Base64, MIME, or other binary-to-text and character encoding systems.(Citation: Wikipedia Binary-to-text Encoding) (Citation: Wikipedia Character Encoding) Some data encoding systems may also result in data compression, such as gzip.",
+      "id": "attack-pattern--14314ebb-06be-4652-b957-327762b5cd66",
+      "modified": "2021-01-07T21:08:44.513Z",
+      "name": "Command and Control - Data Encoding - T1132",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "spec_version": "2.1",
+      "type": "attack-pattern"
+    },
+    {
+      "created": "2021-01-07T21:08:44.517Z",
+      "description": "Adversaries may make use of Domain Generation Algorithms (DGAs) to dynamically identify a destination for command and control traffic rather than relying on a list of static IP addresses or domains. This has the advantage of making it much harder for defenders block, track, or take over the command and control channel, as there potentially could be thousands of domains that malware can check for instructions.",
+      "id": "attack-pattern--732f51d8-252d-408b-8825-222ce819601c",
+      "modified": "2021-01-07T21:08:44.517Z",
+      "name": "Command and Control - Domain Generation Algorithms - T1483",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "spec_version": "2.1",
+      "type": "attack-pattern"
+    },
+    {
+      "created": "2021-01-07T21:08:44.521Z",
+      "description": "Adversaries may communicate using application layer protocols to avoid detection/network filtering by blending in with existing traffic. Commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server. \n\nAdversaries may utilize many different protocols, including those used for web browsing, transferring files, electronic mail, or DNS. For connections that occur internally within an enclave (such as those between a proxy or pivot node and other nodes), commonly used protocols are SMB, SSH, or RDP. ",
+      "id": "attack-pattern--7c2e5ecb-0c65-455c-b597-b20e7e982331",
+      "modified": "2021-01-07T21:08:44.521Z",
+      "name": "Command and Control - Standard Application Layer Protocol - T1071",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "spec_version": "2.1",
+      "type": "attack-pattern"
+    },
+    {
+      "created": "2021-01-07T21:08:44.523Z",
+      "id": "indicator--ffd6019c-75dd-4f18-9408-959b7101f4ae",
+      "indicator_types": [
+        "compromised"
+      ],
+      "modified": "2021-01-07T21:08:44.523Z",
+      "name": "Malicious File Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[file:hashes.'SHA-1' = 'E70B6BE294082188CBE0089DD44DBB86E365F6A2']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.523066Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.524Z",
+      "id": "indicator--ef68af9d-79cd-4af3-9e16-dfb6b91ff1e6",
+      "indicator_types": [
+        "compromised"
+      ],
+      "modified": "2021-01-07T21:08:44.524Z",
+      "name": "Malicious File Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[file:hashes.'SHA-1' = '0548EEDB3D1F45F1F9549E09D00683F3A1292EC5']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.524988Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.525Z",
+      "id": "indicator--f5c68854-bf6b-4cd4-b095-08a013ee68d5",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.525Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '107.152.35.77']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.525405Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.525Z",
+      "id": "indicator--d8bea6b9-0dad-4859-8c03-8cd47d27e68e",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.525Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '198.12.75.112']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.525773Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.526Z",
+      "id": "indicator--427f4bbd-0354-4783-806a-97d274ede819",
+      "indicator_types": [
+        "compromised"
+      ],
+      "modified": "2021-01-07T21:08:44.526Z",
+      "name": "Malicious File Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[file:hashes.MD5 = 'F6D07F3D81DCEA99B27462D100414917' OR file:hashes.'SHA-1' = '395DA6D4F3C890295F7584132EA73D759BD9D094' OR file:hashes.'SHA-256' = '0F5D7E6DFDD62C83EB096BA193B5AE394001BAC036745495674156EAD6557589']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.526114Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.526Z",
+      "id": "indicator--1be0ec01-4de8-40ef-ac7a-d8eac7bcbc42",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.526Z",
+      "name": "Malicious FQDN Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[domain-name:value = 'mobilnweb.com']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.526613Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.526Z",
+      "id": "indicator--021ee19e-d97e-4a0e-ad47-1445fcb6aea1",
+      "indicator_types": [
+        "compromised"
+      ],
+      "modified": "2021-01-07T21:08:44.526Z",
+      "name": "Malicious File Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[file:hashes.'SHA-1' = 'FD15760ABFC0B2537B89ADC65B1FF3F072E7E31C']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.526964Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.527Z",
+      "id": "indicator--279823cf-a1d0-49cb-87bc-2a27fc28b50f",
+      "indicator_types": [
+        "compromised"
+      ],
+      "modified": "2021-01-07T21:08:44.527Z",
+      "name": "Malicious File Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[(file:hashes.'SHA-1' = 'BCB5A4DCBC60D26A5F619518F2CFC1B4BB4E4387' OR file:hashes.'SHA-256' = 'C09040D35630D75DFEF0F804F320F8B3D16A481071076918E9B236A321C1EA77') AND file:name = 'SolarWinds.Orion.Core.BusinessLayer.dll']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.527348Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.527Z",
+      "id": "indicator--9c30b4f0-69ac-4e48-8510-2041cb91c2da",
+      "indicator_types": [
+        "compromised"
+      ],
+      "modified": "2021-01-07T21:08:44.527Z",
+      "name": "Malicious File Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[(file:hashes.'SHA-1' = '6FDD82B7CA1C1F0EC67C05B36D14C9517065353B' OR file:hashes.'SHA-256' = 'AC1B2B89E60707A20E9EB1CA480BC3410EAD40643B386D624C5D21B47C02917C') AND file:name = 'SolarWinds.Orion.Core.BusinessLayer.dll']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.527870Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.528Z",
+      "id": "indicator--6b66268e-f0d6-49a7-afb1-199d74e8a0ee",
+      "indicator_types": [
+        "compromised"
+      ],
+      "modified": "2021-01-07T21:08:44.528Z",
+      "name": "Malicious File Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[file:hashes.'SHA-1' = '2DAFDDBFB0981C5AA31F27A298B9C804E553C7BC']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.528325Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.528Z",
+      "id": "indicator--50506e57-fb7b-4088-b846-7ffb6465e8dd",
+      "indicator_types": [
+        "compromised"
+      ],
+      "modified": "2021-01-07T21:08:44.528Z",
+      "name": "Malicious File Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[(file:hashes.'SHA-1' = '1ACF3108BF1E376C8848FBB25DC87424F2C2A39C' OR file:hashes.'SHA-256' = 'DAB758BF98D9B36FA057A66CD0284737ABF89857B73CA89280267EE7CAF62F3B') AND file:name = 'SolarWinds.Orion.Core.BusinessLayer.dll']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.528719Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.529Z",
+      "id": "indicator--5df3d69a-135b-4c2b-8691-c6e3b3398b7a",
+      "indicator_types": [
+        "compromised"
+      ],
+      "modified": "2021-01-07T21:08:44.529Z",
+      "name": "Malicious File Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[file:hashes.'SHA-256' = 'FFDBDD460420972FD2926A7F460C198523480BC6279DD6CCA177230DB18748E8']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.529166Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.529Z",
+      "id": "indicator--deaac903-3577-4667-935b-d5435000fbef",
+      "indicator_types": [
+        "compromised"
+      ],
+      "modified": "2021-01-07T21:08:44.529Z",
+      "name": "Malicious File Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[file:hashes.'SHA-256' = 'E0B9EDA35F01C1540134ABA9195E7E6393286DDE3E001FCE36FB661CC346B91D']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.529560Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.529Z",
+      "id": "indicator--b696fad5-df5c-4e26-9579-a6a721128d85",
+      "indicator_types": [
+        "compromised"
+      ],
+      "modified": "2021-01-07T21:08:44.529Z",
+      "name": "Malicious File Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[file:hashes.'SHA-256' = 'CC082D21B9E880CEB6C96DB1C48A0375AAF06A5F444CB0144B70E01DC69048E6']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.529954Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.530Z",
+      "id": "indicator--66e64ead-31aa-4c26-a943-129a23e8334f",
+      "indicator_types": [
+        "compromised"
+      ],
+      "modified": "2021-01-07T21:08:44.530Z",
+      "name": "Malicious File Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[file:hashes.'SHA-256' = 'B8A05CC492F70FFA4ADCD446B693D5AA2B71DC4FA2BF5022BF60D7B13884F666']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.530336Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.530Z",
+      "id": "indicator--ffd31996-98c0-41e5-a01c-d31c30b6188b",
+      "indicator_types": [
+        "compromised"
+      ],
+      "modified": "2021-01-07T21:08:44.530Z",
+      "name": "Malicious File Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[file:hashes.'SHA-256' = 'A58D02465E26BDD3A839FD90E4B317EECE431D28CAB203BBDDE569E11247D9E2']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.530731Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.531Z",
+      "id": "indicator--55d212aa-5879-4372-9b1e-aff54e5ec1f9",
+      "indicator_types": [
+        "compromised"
+      ],
+      "modified": "2021-01-07T21:08:44.531Z",
+      "name": "Malicious File Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[file:hashes.'SHA-256' = 'A3EFBC07068606BA1C19A7EF21F4DE15D15B41EF680832D7BCBA485143668F2D']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.531111Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.531Z",
+      "id": "indicator--c4768f14-a3d2-4706-8258-5c6e0cff3a35",
+      "indicator_types": [
+        "compromised"
+      ],
+      "modified": "2021-01-07T21:08:44.531Z",
+      "name": "Malicious File Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[file:hashes.'SHA-256' = '92BD1C3D2A11FC4ABA2735D9547BD0261560FB20F36A0E7CA2F2D451F1B62690']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.531552Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.531Z",
+      "id": "indicator--d9509a26-ed91-48c6-9266-bdf7354d0e44",
+      "indicator_types": [
+        "compromised"
+      ],
+      "modified": "2021-01-07T21:08:44.531Z",
+      "name": "Malicious File Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[file:hashes.'SHA-256' = '2B3445E42D64C85A5475BDBC88A50BA8C013FEBB53EA97119A11604B7595E53D']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.531988Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.532Z",
+      "id": "indicator--a0bd3b2e-ab07-48c9-8b7a-96cd90c92d6e",
+      "indicator_types": [
+        "compromised"
+      ],
+      "modified": "2021-01-07T21:08:44.532Z",
+      "name": "Malicious File Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[file:hashes.'SHA-256' = '20E35055113DAC104D2BB02D4E7E33413FAE0E5A426E0EEA0DFD2C1DCE692FD9']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.532373Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.532Z",
+      "id": "indicator--b475f202-da01-4c03-855b-c09e6480f217",
+      "indicator_types": [
+        "compromised"
+      ],
+      "modified": "2021-01-07T21:08:44.532Z",
+      "name": "Malicious File Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[file:hashes.MD5 = '393702FAB1C5D09D9F94E8A63114746D' OR file:hashes.'SHA-1' = 'E1EBAB8ED84DC10B95A1F68C812ECBF6D8F350F8' OR file:hashes.'SHA-256' = '6E4050C6A2D2E5E49606D96DD2922DA480F2E0C70082CC7E54449A7DC0D20F8D']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.532785Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.533Z",
+      "id": "indicator--c72542f6-e639-4a3c-ad8e-c9418a3bd51c",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.533Z",
+      "name": "Malicious FQDN Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[domain-name:value = 'infinitysoftwares.com']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.533270Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.533Z",
+      "id": "indicator--351cfeb6-8750-4ac5-b4b0-768bc76f3e73",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.533Z",
+      "name": "Malicious FQDN Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[domain-name:value = 'ervsystem.com']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.533614Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.533Z",
+      "id": "indicator--e5e5bd7e-857e-4bf1-bcdc-923c11040210",
+      "indicator_types": [
+        "compromised"
+      ],
+      "modified": "2021-01-07T21:08:44.533Z",
+      "name": "Malicious File Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[file:hashes.'SHA-256' = 'B820E8A2057112D0ED73BD7995201DBED79A79E13C79D4BDAD81A22F12387E07']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.533939Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.534Z",
+      "id": "indicator--1eaed4a8-91be-4ba1-89c0-5aa7b703e731",
+      "indicator_types": [
+        "compromised"
+      ],
+      "modified": "2021-01-07T21:08:44.534Z",
+      "name": "Malicious File Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[file:hashes.'SHA-256' = '1817A5BF9C01035BCF8A975C9F1D94B0CE7F6A200339485D8F93859F8F6D730C']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.534318Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.534Z",
+      "id": "indicator--f570ee69-6f18-4277-a513-f155f971f408",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.534Z",
+      "name": "Malicious FQDN Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[domain-name:value = 'virtualwebdata.com']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.534711Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.535Z",
+      "id": "indicator--420fe8b7-7fc5-4f77-a9fd-8540f1e2ce15",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.535Z",
+      "name": "Malicious FQDN Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[domain-name:value = 'solartrackingsystem.net']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.535048Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.535Z",
+      "id": "indicator--21ee9658-63d8-4aeb-8f94-e2f5f607f7ef",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.535Z",
+      "name": "Malicious FQDN Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[domain-name:value = 'seobundlekit.com']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.535370Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.535Z",
+      "id": "indicator--6ca14285-a20d-4e7d-aa09-bd5217d268f4",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.535Z",
+      "name": "Malicious FQDN Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[domain-name:value = 'kubecloud.com']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.535702Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.536Z",
+      "id": "indicator--50629245-5ed8-440e-ac5a-2dc7387bdba3",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.536Z",
+      "name": "Malicious FQDN Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[domain-name:value = 'digitalcollege.org']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.536023Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.536Z",
+      "id": "indicator--28e02728-f244-4d2f-8973-34568892974f",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.536Z",
+      "name": "Malicious FQDN Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[domain-name:value = 'webcodez.com']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.536395Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.536Z",
+      "id": "indicator--80783b3f-c27e-4f86-927a-0d335faec3f5",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.536Z",
+      "name": "Malicious FQDN Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[domain-name:value = 'lcomputers.com']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.536732Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.537Z",
+      "id": "indicator--5698ed53-2dbc-48de-bde1-3b6b186b21e1",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.537Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '8.18.145.36']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.537067Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.537Z",
+      "id": "indicator--a09dfb19-bb3a-44b5-a49e-eb7118e2f5c8",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.537Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '8.18.145.33']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.537391Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.537Z",
+      "id": "indicator--6c0cabfb-d25b-4617-972d-e6f79ab9c794",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.537Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '8.18.145.3']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.537728Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.538Z",
+      "id": "indicator--f4e94ab0-65b5-433b-8831-27bae4e55472",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.538Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '8.18.145.21']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.538052Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.538Z",
+      "id": "indicator--33e09439-7bb9-4610-be56-d903f17c0b52",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.538Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '8.18.145.181']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.538376Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.538Z",
+      "id": "indicator--cd85d19e-f0aa-4748-9ba6-919f2e12bd51",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.538Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '8.18.145.157']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.538712Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.539Z",
+      "id": "indicator--a2977802-08fb-4f4e-9a44-a8a6f0263669",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.539Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '8.18.145.150']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.539036Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.539Z",
+      "id": "indicator--4dfa64c1-0838-4ade-8efb-421834c313ec",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.539Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '8.18.145.139']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.539357Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.539Z",
+      "id": "indicator--bd08a364-3ece-4b97-aac0-4abf70e6d7fd",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.539Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '8.18.145.136']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.539692Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.540Z",
+      "id": "indicator--f589937d-fe7b-4077-b0af-6d8c4bf718f0",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.540Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '8.18.145.134']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.540026Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.540Z",
+      "id": "indicator--d04ee03e-51c0-4cc6-84e9-8544265caea0",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.540Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '8.18.145.131']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.540393Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.540Z",
+      "id": "indicator--5cdfa113-05ca-4f8a-a60f-7025c5172f7a",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.540Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '8.18.144.9']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.540738Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.541Z",
+      "id": "indicator--a77356ad-fb7a-45f8-9bf8-71612aa1ac64",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.541Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '8.18.144.62']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.541064Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.541Z",
+      "id": "indicator--9b7ea804-9ac7-4f99-98f9-bb48ea4b9288",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.541Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '8.18.144.44']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.541388Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.541Z",
+      "id": "indicator--d107d2f8-977d-4c67-a471-2b5738ac8b22",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.541Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '8.18.144.40']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.541725Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.542Z",
+      "id": "indicator--300a148b-ff7f-403a-b2ab-7b008351ffda",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.542Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '8.18.144.20']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.542051Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.542Z",
+      "id": "indicator--bfe153e3-59ad-4e38-988d-dcb1e9d9c91e",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.542Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '8.18.144.188']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.542373Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.542Z",
+      "id": "indicator--26357d49-cd5c-43d0-a1a6-d294b458eba3",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.542Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '8.18.144.180']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.542707Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.543Z",
+      "id": "indicator--fe362f62-05bd-4700-98ce-d457f7a14074",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.543Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '8.18.144.170']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.543046Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.543Z",
+      "id": "indicator--88f091b2-6fd3-4456-9e89-89f56bc54dad",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.543Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '8.18.144.165']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.543370Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.543Z",
+      "id": "indicator--c734c7fb-7c0c-4de7-b728-d1f732c8ba23",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.543Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '8.18.144.158']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.543706Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.544Z",
+      "id": "indicator--fb387ebf-d32b-477f-9b4b-b8ecbc1dac3c",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.544Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '8.18.144.156']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.544032Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.544Z",
+      "id": "indicator--22a98fcb-985a-4e27-b06a-87d0819faeac",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.544Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '8.18.144.149']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.544354Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.544Z",
+      "id": "indicator--a420c9c3-ba32-48c7-898b-6f66e7a2be8a",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.544Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '8.18.144.136']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.544737Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.545Z",
+      "id": "indicator--b5beeece-261d-4b1f-8d40-945c1bd62cef",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.545Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '8.18.144.135']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.545064Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.545Z",
+      "id": "indicator--5e8074af-889b-4a85-b490-29887ec483dd",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.545Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '8.18.144.130']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.545390Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.545Z",
+      "id": "indicator--8a540ee4-f296-4349-9590-405cf441e892",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.545Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '8.18.144.12']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.545728Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.546Z",
+      "id": "indicator--cf2497b6-8b31-4dc8-8f48-7754d4a32c77",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.546Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '8.18.144.11']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.546068Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.546Z",
+      "id": "indicator--4d119e03-cf88-4fb6-a365-d18c8e7a4e37",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.546Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '20.141.48.154']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.546395Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.546Z",
+      "id": "indicator--bc3725b1-8327-424f-bd14-c2af2c478c81",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.546Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '184.72.48.22']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.546733Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.547Z",
+      "id": "indicator--145bd5fa-f9d2-4045-86d6-2d88481e905c",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.547Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '184.72.245.1']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.547072Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.547Z",
+      "id": "indicator--5ed3941d-4d04-405b-b59b-cb9c17ebd35b",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.547Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '184.72.240.3']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.547396Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.547Z",
+      "id": "indicator--dce1727b-e721-4909-9633-56637a9ff123",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.547Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '184.72.229.1']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.547732Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.548Z",
+      "id": "indicator--99b1ab38-0df7-4ea6-be62-71c4b03ad9b8",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.548Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '184.72.224.3']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.548057Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.548Z",
+      "id": "indicator--71c751c4-887a-4085-af31-bfa3258c85a0",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.548Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '184.72.212.52']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.548377Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.548Z",
+      "id": "indicator--0c788476-7961-4017-81c1-1facd08ca86d",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.548Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '184.72.21.54']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.548712Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.549Z",
+      "id": "indicator--eb695719-d618-4bcc-b042-9b71ad20f70c",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.549Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '184.72.209.33']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.549079Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.549Z",
+      "id": "indicator--f30a3966-acc4-40d1-a5f1-79d8fe1758e6",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.549Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '184.72.145.34']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.549403Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.549Z",
+      "id": "indicator--7db56eb2-7d06-4be6-93de-94083e5581c3",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.549Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '184.72.113.55']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.549741Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.550Z",
+      "id": "indicator--bfdae46e-7e8b-4d27-a7b2-e7d5ae7f5354",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.550Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '184.72.101.22']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.550077Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.550Z",
+      "id": "indicator--346ed9bb-4924-418a-832f-fde0b03bc96a",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.550Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '184.72.1.3']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.550404Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.550Z",
+      "id": "indicator--d8e8f41a-b80e-4a84-8260-695321287ccc",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.550Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '3.87.182.149']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.550744Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.551Z",
+      "id": "indicator--f34c5b7b-efaf-4531-9cab-364c9e9a1c61",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.551Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '34.219.234.134']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.551069Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.551Z",
+      "id": "indicator--19bb94f0-d118-4df3-8330-05aef63f82b5",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.551Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '3.16.81.254']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.551391Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.551Z",
+      "id": "indicator--32f6a46d-70a0-4749-a3c8-917d0649169b",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.551Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '196.203.11.89']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.551726Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.552Z",
+      "id": "indicator--da665e28-913a-4f57-854d-50feb4ca8e38",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.552Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '18.220.219.143']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.552050Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.552Z",
+      "id": "indicator--e9377eab-df69-455c-82f0-f51db166a3e5",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.552Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '18.217.225.111']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.552375Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.552Z",
+      "id": "indicator--71a6ce9e-ad2b-4029-bf65-1cfdd0d93db6",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.552Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '13.57.184.217']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.552710Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.553Z",
+      "id": "indicator--7a8e550c-8538-472f-8289-e382d1f61879",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.553Z",
+      "name": "Malicious FQDN Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[domain-name:value = 'globalnetworkissues.com']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.553085Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.553Z",
+      "id": "indicator--2f5ca124-9657-4a0a-af57-4f0746e28fc8",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.553Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '34.203.203.23']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.553413Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.553Z",
+      "id": "indicator--add42f27-9592-40a0-bd48-19f1d04ee45a",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.553Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '54.215.192.52']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.553753Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.554Z",
+      "id": "indicator--45b5748b-3ed8-4b39-8626-05ae91a3f404",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.554Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '54.193.127.66']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.554079Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.554Z",
+      "id": "indicator--c71fed23-1714-4990-900a-6f98efebde81",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.554Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '13.59.205.66']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.554405Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.554Z",
+      "id": "indicator--3da81914-0053-4285-ab51-d5859ccec093",
+      "indicator_types": [
+        "compromised"
+      ],
+      "modified": "2021-01-07T21:08:44.554Z",
+      "name": "Malicious File Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[file:hashes.MD5 = '3E329A4C9030B26BA152FB602A1D5893' OR file:hashes.'SHA-1' = 'EBE711516D0F5CD8126F4D53E375C90B7B95E8F2' OR file:hashes.'SHA-256' = 'D3C6785E18FBA3749FB785BC313CF8346182F532C59172B69ADFB31B96A5D0AF']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.554745Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.555Z",
+      "id": "indicator--a378f7a0-1cc2-4831-a10b-d6923cf25c34",
+      "indicator_types": [
+        "compromised"
+      ],
+      "modified": "2021-01-07T21:08:44.555Z",
+      "name": "Malicious File Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[file:hashes.MD5 = 'E18A6A21EB44E77CA8D739A72209C370' OR file:hashes.'SHA-1' = '5E643654179E8B4CFE1D3C1906A90A4C8D611CEA' OR file:hashes.'SHA-256' = 'A25CADD48D70F6EA0C4A241D99C5241269E6FACCB4054E62D16784640F8E53BC']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.555237Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.555Z",
+      "id": "indicator--b6ff3724-9787-4b71-96f5-e8a6280ad6ae",
+      "indicator_types": [
+        "compromised"
+      ],
+      "modified": "2021-01-07T21:08:44.555Z",
+      "name": "Malicious File Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[file:hashes.'SHA-256' = 'EB6FAB5A2964C5817FB239A7A5079CABCA0A00464FB3E07155F28B0A57A2C0ED']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.555737Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.556Z",
+      "id": "indicator--d64f8d60-faac-47c3-ba4b-c05f04a9c71a",
+      "indicator_types": [
+        "compromised"
+      ],
+      "modified": "2021-01-07T21:08:44.556Z",
+      "name": "Malicious File Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[file:hashes.MD5 = '56CEB6D0011D87B6E4D7023D7EF85676' OR file:hashes.'SHA-1' = '75AF292F34789A1C782EA36C7127BF6106F595E8' OR file:hashes.'SHA-256' = 'C15ABAF51E78CA56C0376522D699C978217BF041A3BD3C71D09193EFA5717C71']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.556134Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.556Z",
+      "id": "indicator--b6cf7873-133d-416a-9e2b-a874e680ce4e",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.556Z",
+      "name": "Malicious FQDN Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[domain-name:value = 'freescanonline.com']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.556631Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.556Z",
+      "id": "indicator--91b77b7a-8998-47a0-8992-e4018a95916a",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.556Z",
+      "name": "Malicious FQDN Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[domain-name:value = 'thedoccloud.com']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.556975Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.557Z",
+      "id": "indicator--c0dcf40a-41f7-4b2f-8f36-4ce973ad0347",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.557Z",
+      "name": "Malicious FQDN Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[domain-name:value = 'deftsecurity.com']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.557351Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.557Z",
+      "id": "indicator--0a7e18df-0650-484a-8755-59625f899846",
+      "indicator_types": [
+        "compromised"
+      ],
+      "modified": "2021-01-07T21:08:44.557Z",
+      "name": "Malicious File Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[(file:hashes.MD5 = '846E27A652A5E1BFBD0DDD38A16DC865' OR file:hashes.'SHA-1' = 'D130BD75645C2433F88AC03E73395FBA172EF676' OR file:hashes.'SHA-256' = 'CE77D116A074DAB7A22A0FD4F2C1AB475F16EEC42E1DED3C0B0AA8211FE858D6') AND file:name = 'SolarWinds.Orion.Core.BusinessLayer.dll' AND file:size = 1028072]",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.557693Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.558Z",
+      "id": "indicator--17af5ac0-af96-423c-90c8-b0a1c341677c",
+      "indicator_types": [
+        "compromised"
+      ],
+      "modified": "2021-01-07T21:08:44.558Z",
+      "name": "Malicious File Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[(file:hashes.MD5 = '02AF7CEC58B9A5DA1C542B5A32151BA1' OR file:hashes.'SHA-1' = '1B476F58CA366B54F34D714FFCE3FD73CC30DB1A' OR file:hashes.'SHA-256' = 'D0D626DEB3F9484E649294A8DFA814C5568F846D5AA02D4CDAD5D041A29D5600') AND file:name = 'CORE-2019.4.5220.20574-SolarWinds-Core-v2019.4.5220-Hotfix5.msp' AND file:size = 214831104]",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.558218Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.558Z",
+      "id": "indicator--dca7fb63-f714-47ea-9d56-10c78f4e9dbd",
+      "indicator_types": [
+        "compromised"
+      ],
+      "modified": "2021-01-07T21:08:44.558Z",
+      "name": "Malicious File Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[(file:hashes.MD5 = 'B91CE2FA41029F6955BFF20079468448' OR file:hashes.'SHA-1' = '76640508B1E7759E548771A5359EAED353BF1EEC' OR file:hashes.'SHA-256' = '32519B85C0B422E4656DE6E6C41878E95FD95026267DAAB4215EE59C107D6C77') AND file:name = 'SolarWinds.Orion.Core.BusinessLayer.dll' AND file:size = 1011032]",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.558747Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.559Z",
+      "id": "indicator--7cc76354-ca4f-4415-a3ce-32e266912ad9",
+      "indicator_types": [
+        "compromised"
+      ],
+      "modified": "2021-01-07T21:08:44.559Z",
+      "name": "Malicious File Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[(file:hashes.MD5 = '2C4A910A1299CDAE2A4E55988A2F102E' OR file:hashes.'SHA-1' = '2F1A5A7411D015D01AAEE4535835400191645023' OR file:hashes.'SHA-256' = '019085A76BA7126FFF22770D71BD901C325FC68AC55AA743327984E89F4B0134') AND file:name = 'SolarWinds.Orion.Core.BusinessLayer.dll' AND file:size = 1028072]",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.559266Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.559Z",
+      "id": "indicator--2212be32-ab59-45f1-a062-5244f30dbd96",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.559Z",
+      "name": "Malicious FQDN Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[domain-name:value = 'avsvmcloud.com']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.559794Z",
+      "description": "AA20-352A APT Compromise"
+    },
+    {
+      "created": "2021-01-07T21:08:44.560Z",
+      "id": "indicator--ef2d2142-b417-42f2-bde0-e37d31f72729",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "modified": "2021-01-07T21:08:44.560Z",
+      "name": "Malicious IPv4 Indicator",
+      "object_marking_refs": [
+        "marking-definition--68ae4ca4-b65c-43c7-af27-4cf84d3a5a79",
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "pattern": "[ipv4-addr:value = '173.237.190.2']",
+      "pattern_type": "stix",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2021-01-07T21:08:44.560137Z",
+      "description": "AA20-352A APT Compromise"
+    }
+  ],
+  "type": "bundle"
+}

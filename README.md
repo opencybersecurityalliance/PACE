@@ -86,4 +86,6 @@ The PACE prototyping effort is a conceptual successor to
 prototyping previously done related to the [Security Content
 Automation Protocol,
 v2](https://csrc.nist.gov/projects/security-content-automation-protocol-v2/scapv2-community).
-
+* [SCAP v2 Data Collection Architecture](https://github.com/opencybersecurityalliance/PACE/files/7688437/Data.Collection.Architecture.Sub-Group.-.Fall.Workshop.Briefing.pdf) - 18 August 2020
+* [Data Collection Architecture](https://github.com/opencybersecurityalliance/PACE/files/7688437/Data.Collection.Architecture.Sub-Group.-.Fall.Workshop.Briefing.pdf) - Fall Workshop briefing, 29 September 2020
+* [SCAPv2 and OpenC2](https://github.com/opencybersecurityalliance/PACE/files/7697522/SCAPv2.and.OpenC2.pdf) - Fall Workshop briefing, 29 September 2020

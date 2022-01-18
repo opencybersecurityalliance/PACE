@@ -4,7 +4,7 @@
 
 PACE is a sub-project of the [Open Cybersecurity Alliance (OCA)](https://opencybersecurityalliance.org/), an [OASIS Open Project](https://oasis-open-projects.org/), and welcomes participation by anyone, whether affiliated with OASIS or not.  Substantive contributions and feedback are invited from all parties, following the common conventions for participation in GitHub public repository projects.  
 
-Participation is expected to be consistent with the [Code of Conduct](https://github.com/opencybersecurityalliance/oca-admin/blob/master/CODE_OF_CONDUCT.md), the [licenses](https://github.com/opencybersecurityalliance/oca-admin/blob/master/LICENSE.md), and the acceptance of our Contributor License Agreement, generally at the time of first contribution. Please see the repository [README](https://github.com/opencybersecurityalliance/oca-admin/blob/master/README.md) for more details.</p>
+Participation is expected to be consistent with the [Code of Conduct](https://github.com/opencybersecurityalliance/oasis-open-project/blob/master/CODE_OF_CONDUCT.md), the [licenses](https://github.com/opencybersecurityalliance/oasis-open-project/blob/master/LICENSE.md), and the acceptance of our Contributor License Agreement, generally at the time of first contribution. Please see the repository [README](https://github.com/opencybersecurityalliance/oasis-open-project/blob/master/README.md) for more details.</p>
 
 ## <a id="DevModel">Development Model</a>
 
@@ -13,7 +13,7 @@ The PACE project operates using the GitHub ["Fork and Pull"](https://docs.github
 PACE maintainers are selected by acclamation by the PACE working group, and are the only participants with the privileges to merge pull requests. The current maintainers are:
 
  * Adam Montville, CIS, @adammontville
- * Sara Archacki, CIS, 
+ * Sara Archacki, CIS, @slarchacki22
  * David Lemire, Huntington-Ingalls Industries, @dlemire60
 
 > Maintainers list updated 11 January 2022

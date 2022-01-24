@@ -38,6 +38,15 @@ combined with use cases created for the SBOM Healthcare Proof of Concept
 and then further extended
 to differentiate the potential uses of the different flags.
 
+EDITOR's NOTE: A link will be provided to the
+NTIA/CISA SBOM PoC use cases.
+The "best" link is a document still being prepared
+(google doc which will become pdf on CISA.gov
+in near future)
+but in the meantime, readers are referred to
+-  https://www.ntia.doc.gov/files/ntia/publications/ntia_sbom_healthcare_update-2021-04-29.pdf,
+- https://healthitsecurity.com/features/using-software-bill-of-materials-sboms-for-medical-device-security
+
 These are realistic (aka complex) use cases
 and hence there are many elements for a given use case.
 The following sections will define the values these elements can take.

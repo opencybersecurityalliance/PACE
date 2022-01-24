@@ -79,31 +79,31 @@ Different organizations will have different
 budgets, expertise, technologies, and priorities.
 And these will be informed/influenced by the industry they are in.
 The industries/organizations for this set of use cases are:
-A healthcare
+- (A) healthcare
    + General Hospital
    + East Podunk Rural Community Hospital
    + Military Base Hospital
    + Platinum-MDM
    + GarageShop-MDM
-B automotive
+- (B) automotive
    + TopTen Auto
    + Goldstar Seatbelts
    + FlyByNight Navigation Software
-C public utilities
+- (C) public utilities
    + Bestest Gas & Electric
    + West Podunk Rural Electric Coop
    + Titanium Generators
    + Worstest Measurement Systems
-D government
+- (D) government
    + Military Base Hospital
    + US Agency of Examples (USAOE)
    + Commission on Historical Anachronisms
    + Beltway Bandits POAM Software Systems
    + Ace Accreditation Services
-E consumer electronics
+- (E) consumer electronics
    + ACME Webcams
    + Sketchy Alarm Clock Ventures
-F cybersecurity vendor
+- (F) cybersecurity vendor
    + BestInClass IDS
    + Feigned-Intelligence AI
 

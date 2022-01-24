@@ -294,7 +294,7 @@ use cases in later sections.
 - Use case I.E.01 shows security policy for a company which, in that scenario, chooses to always trust a particular vendor's "not affected" VEX; and they will take no action independent of the value
 of the flags.
 - Use case II.A.01 shows the security policy for a different company (than previous bullet) which, in that scenario trusts the vendor "not affected" when the "component_not_present" or the "Vulnerable_code_not_present" flag are set. However if the "Vulnerable_code_cannot_be_controlled_by_adversary" flag is set, then they take action to increase monitoring. If the "Vulnerable_code_not_in_execute_path" or the "Vulnerability_mitigations__exist" flags are set, company 2 policy kicks off active threat hunting in systems with either of these flags.
-- Use case III.D.01 shows the security policy for company 3 is very similar to the company in the previous bullet, but with the important distinction that they invoke a 3rd-party scanner to validate "Vulnerable_code_not_present". They ncrease monitoring instead of starting threat hunting for "Vulnerability_mitigations__exist".
+- Use case III.D.01 shows the security policy for company 3 is very similar to the company in the previous bullet, but with the important distinction that they invoke a 3rd-party scanner to validate "Vulnerable_code_not_present". They increase monitoring instead of starting threat hunting for "Vulnerability_mitigations__exist".
 
 The following figures show the differences between the use cases
 based on the flags.

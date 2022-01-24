@@ -289,11 +289,11 @@ of the flags.
 The following figures show the differences between the use cases
 based on the flags.
 
-![IE01](./IE01.png)
+I.E.01 ![IE01](./IE01.png)
 
-![IIA01](./IIA01.png)
+II.A.01 ![IIA01](./IIA01.png)
 
-![IIID01](./IIID01.png)
+III.D.01 ![IIID01](./IIID01.png)
 
 ### Affected Flags
 A few examples are highlighted here to distinguish why VEX flags are needed

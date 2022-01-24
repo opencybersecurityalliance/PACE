@@ -13,7 +13,18 @@
 - [Security Policies](#security-policies)
 - [Implementing Use Cases](#implementing-use-cases)
 - [VEX Flag Distinctions](#vex-flag-distinctions)
+   + [Not_Affected Flags](#notaffected-flags)
+   + [Affected Flags](#affected-flags)
+   + [Under Investigation](#underinvestigation)
+   + [Fixed](#fixed)
 - [Use Cases](#use-cases)
+   + [Simplified Examples for Flags](#simplified-examples-for-flags)
+   + [Healthcare Use Cases](Healthcare Use Cases)
+   + [Automotive Use Cases](Automotive Use Cases)
+   + [Public Utilities Use Cases](Public Utilities Use Cases)
+   + [Government Use Cases](Government Use Cases)
+   + [Consumer Electronics Use Cases](Consumer Electronics Use Cases)
+   + [Cybersecurity Vendor Use Cases](Cybersecurity Vendor Use Cases)
 
 ## Intro
 This directory was created to explain some PACE usecases
@@ -52,10 +63,10 @@ while it is offline being updated.
 Which playbook/actions are executed depends on the situational
 environment at the time.
 The situations for this set of use cases are:
-- all quiet
-- criminal hackers in various stages of infiltrating an organization for financial gain
-- foreign nation state hackers in various stages of infiltrating an organization to gain intelligence
-- foreign nation state hackers in various stages of infiltrating a hospital to decrease US military combat readiness (ie to hurt or kill US Military personnel)
+- I. all quiet
+- II. criminal hackers in various stages of infiltrating an organization for financial gain
+- III. foreign nation state hackers in various stages of infiltrating an organization to gain intelligence
+- IV. foreign nation state hackers in various stages of infiltrating a hospital to decrease US military combat readiness (ie to hurt or kill US Military personnel)
 
 The situation (ie quiet, criminal, intel, casualties)
 will be one of the inputs
@@ -68,27 +79,36 @@ Different organizations will have different
 budgets, expertise, technologies, and priorities.
 And these will be informed/influenced by the industry they are in.
 The industries/organizations for this set of use cases are:
-- healthcare
+A healthcare
    + General Hospital
    + East Podunk Rural Community Hospital
    + Military Base Hospital
    + Platinum-MDM
    + GarageShop-MDM
-- automotive
+B automotive
    + TopTen Auto
    + Goldstar Seatbelts
    + FlyByNight Navigation Software
-- consumer electronics
-   + ACME Webcams
-   + Sketchy Alarm Clock Ventures
-- cybersecurity vendor
-   + BestInClass IDS
-   + Feigned-Intelligence AI
-- public utilities
+C public utilities
    + Bestest Gas & Electric
    + West Podunk Rural Electric Coop
    + Titanium Generators
    + Worstest Measurement Systems
+D government
+   + Military Base Hospital
+   + US Agency of Examples (USAOE)
+   + Commission on Historical Anachronisms
+   + Beltway Bandits POAM Software Systems
+   + Ace Accreditation Services
+E consumer electronics
+   + ACME Webcams
+   + Sketchy Alarm Clock Ventures
+F cybersecurity vendor
+   + BestInClass IDS
+   + Feigned-Intelligence AI
+
+See [Industries](./industries.md) for how to convert use case
+in one industry to another industry
 
 ## Infrastructure Systems
 A distinction will be made between the organization systems
@@ -258,26 +278,37 @@ viewpoint and details of actions will include appropriate OpenC2 commands.
 The actual use cases are in a following section.
 A few examples are highligted here to distinguish why VEX flags are needed
 and why the existing flags are necessary.
-- usecase?1? shows security policy for company 1 in that scenario chooses to always trust a particular vendor's VEX when it says "not affected" and they will take no action independent of the value
+These simplified use cases were extracted from the more realistic/complicated
+use cases in later sections.
+
+- Use case I.E.01 shows security policy for a company which, in that scenario, chooses to always trust a particular vendor's "not affected" VEX; and they will take no action independent of the value
 of the flags.
-- usecase?2? shows the security policy for company 2 in that scenario trusts the vendor "not affected" when the "component_not_present" or the "Vulnerable_code_not_present" flag are set. However if the "Vulnerable_code_cannot_be_controlled_by_adversary" flag is set, then they take action to increase monitoring. If the "Vulnerable_code_not_in_execute_path" or the "Vulnerability_mitigations__exist" flags are set, company 2 policy kicks off active threat hunting in systems with either of these flags.
-- usecase?3? shows the security policy for company 3 is very similar to company 2 but with the important distinction that they treat "Vulnerable_code_not_present" similar to "Vulnerable_code_cannot_be_controlled_by_adversary" and increase monitoring. They do similar for "Vulnerability_mitigations__exist" (i.e. increase monitoring instead of starting threat hunting like they do for "Vulnerable_code_not_in_execute_path").
+- Use case II.A.01 shows the security policy for a different company (than previous bullet) which, in that scenario trusts the vendor "not affected" when the "component_not_present" or the "Vulnerable_code_not_present" flag are set. However if the "Vulnerable_code_cannot_be_controlled_by_adversary" flag is set, then they take action to increase monitoring. If the "Vulnerable_code_not_in_execute_path" or the "Vulnerability_mitigations__exist" flags are set, company 2 policy kicks off active threat hunting in systems with either of these flags.
+- Use case III.D.01 shows the security policy for company 3 is very similar to the company in the previous bullet, but with the important distinction that they treat "Vulnerable_code_not_present" similar to "Vulnerable_code_cannot_be_controlled_by_adversary" and increase monitoring. They do similar for "Vulnerability_mitigations__exist" (i.e. increase monitoring instead of starting threat hunting like they do for "Vulnerable_code_not_in_execute_path").
+
+The following figures show the differences between the use cases
+based on the flags.
+
+![IE01](./IE01.png)
+
+![IIA01](./IIA01.png)
+
+![IIID01](./IIID01.png)
 
 ### Affected Flags
-A few examples are highligted here to distinguish why VEX flags are needed
+A few examples are highlighted here to distinguish why VEX flags are needed
 for "affected".
-- usecase?4? shows the security policy for company1 in that situation can afford to shut off all affected devices independent of the affected flags.
-- usecase?5? shows the security policy for company2 in the usecase?5? situation (as opposed to the usecase?6? situation, same company but different policy/actions due to different conditions). This situation is affected devices with default_configuration_not_affected and no_exploits_reported_in_the_wild_yet.
-   + playbook to shut down the level 4 affected devices regardless of flags. Recall devices with criticality level 4 can affort to lost for 1 day without impact on patient care or finances.
+- Use case I.B.01 shows the security policy for a company that, in that situation, can afford to shut off all affected devices independent of the affected flags.
+- Use case I.D.01 shows the security policy for Military Hospital that in the this situation (as opposed to the situation in next bullet which is same company but different policy/actions due to different conditions). This situation is affected devices with default_configuration_not_affected and no_exploits_reported_in_the_wild_yet.
+   + playbook to shut down the level 4 affected devices regardless of flags. Recall devices with criticality level 4 can afford to be lost for 1 day without impact on patient care or finances.
    + playbook to kick off automated configuration on the affected level 2&3 devices. Recall level 3 are necessary financial systems and level 2 are system which could potentially impact patient care.
    + playbook to kick off threat hunting on all level 1 devices independent of affected or flags. Recall level 1 systems could lead to loss of life if compromised.
-- usecase?6? is same company as usecase?5? but the situation is the ISAC has informed the hospital there is credible evidence malefactors are trying to kill hospital patients using a particular TTP. Threat hunting at the hospital has detected adversaries are already in the system. The vendor has issued a new vex with known_exploits_in_the_wild based on input from their customers. The hospital issues it's own VEX, for internal consumption by it's automated systems with the vulnerable_code_is_controlled_by_adversary flag set which results in:
+- IV.D.01 is Military Hospital but the situation is different than the previous bullet. Both the ISAC and the Intelligence Community have informed the hospital there is credible evidence that malefactors are trying to kill hospital patients using a particular TTP. Threat hunting at the hospital has detected adversaries are already in the system. The vendor, Platinum MDM, has issued a new vex with known_exploits_in_the_wild based on input from their customers. The hospital issues it's own VEX, for internal consumption by it's automated systems, with the vulnerable_code_is_controlled_by_adversary flag set which results in:
    + playbook to shut down ALL level 4 devices, affected or not
    + playbook to shut down affected level 3 devices
    + playbook to increase monitoring on remaining level 3 devices, and all level 1&2 devices
    + playbook to kick off threat hunting on all level 1 & 2 devices, additional resources are enabled, calling in outside help, invoking insurance clauses, as well as involving law enforcement and CISA
    + Board of Directors informed
-- a few more to distinguish betwee the remaining flags with different company "flag thresholds" from company2
 
 ### Under_investigation
 Use cases will need to be added for Under_investigation eventually
@@ -290,35 +321,41 @@ but not directly affecting the flag discussions
 (unless someone comes up with a need for "fixed" flags)
 
 ## Use Cases
-The use cases are:
-- [case0](./case0.md) - base case for cases 1-n in a healthcare setting
-- [case1](./case1.md) - all quiet, situation normal "General Hospital"
-- [case1car](./case1car.md) - all quiet, situation normal "TopTenAuto" - example of find/replace to apply one industry case to another
-- [case2](./case2.md) - "General Hospital" criminal use case
-- [case3](./case3.md) - "General Hospital" intel use case
-- [case4](./case4.md) - "General Hospital" military casualties use case
-- [case5](./case5.md) - "Podunk Rural Coop" licensing lawsuit use case
-- [case6](./case6.md) - "ACME-Pay" architecture use case
+Use case naming will contain Situation.Industy.number.
+For example in I.A.1, "I" means situation is "quiet" (ie no known hackers in their system).
+The "A" means it's a Healthcare Industry scenario.
+The "O1" means it's the first IA use case.
+This naming scheme will probably need changing once more use cases exist
+and we determine how best to organize them.
 
-Need to name use cases better - industry in name, situation in name, type in name
+### Simplified Examples for Flags
+- [Use Case I.E.01 All Quiet Consumer Electronics 1](./usecase_IE01.md)
+- [Use Case II.A.01 Criminal Intrusion Healthcare](./usecase_IIA01.md)
+- [Use Case III.D.01 Foreign Intelligence Government](./usecase_IIID01.md)
+- [Use Case I.B.01 All Quiet Automotive 1](./usecase_IB01.md)
+- [Use Case I.D.01 All Quiet Government](./usecase_IB01.md)
+- [Use Case IV.D.01 Killer Government/Healthcare](./usecase_IB01.md)
 
-Need to (1) finish uc1-6 (2) analyze uc1-6 wrt vex flags
-and add more uc to make sure cover both polarities
-of all 'not-affected' flags
-and show need for 'affected' flags.
+### Healthcare Use Cases
+- Use Case ...
+- Use Case ...
 
-The actors for the various industries
-are listed in [actor list](./actors.md)
+### Automotive Use Cases
+- Use Case ...
+- Use Case ...
 
-explain the use cases are from various industries
-but can be interchanged
+### Public Utilities Use Cases
+- Use Case ...
+- Use Case ...
 
-ref [actor list](./actors.md)
+### Government Use Cases
+- Use Case ...
+- Use Case ...
 
-ref [cross-industry synonym list](./industries.md)
-and give example.
+### Consumer Electronics Use Cases
+- Use Case ...
+- Use Case ...
 
-eg to change [case1](./case1.md) from healthcare to automotive:
-- find all "General Hospital" and replace with "TopTen Auto"
-- find all "ACME MDM" and replace with "Tier2 Inc"
-- ...
+### Cybersecurity Vendor Use Cases
+- Use Case ...
+- Use Case ...

@@ -19,12 +19,12 @@
    + [Fixed](#fixed)
 - [Use Cases](#use-cases)
    + [Simplified Examples for Flags](#simplified-examples-for-flags)
-   + [Healthcare Use Cases](Healthcare Use Cases)
-   + [Automotive Use Cases](Automotive Use Cases)
-   + [Public Utilities Use Cases](Public Utilities Use Cases)
-   + [Government Use Cases](Government Use Cases)
-   + [Consumer Electronics Use Cases](Consumer Electronics Use Cases)
-   + [Cybersecurity Vendor Use Cases](Cybersecurity Vendor Use Cases)
+   + [Healthcare Use Cases](#healthcare-use-cases)
+   + [Automotive Use Cases](#automotive-use-cases)
+   + [Public Utilities Use Cases](#public-utilities-use-cases)
+   + [Government Use Cases](#government-use-cases)
+   + [Consumer Electronics Use Cases](#consumer-electronics-use-cases)
+   + [Cybersecurity Vendor Use Cases](#cybersecurity-vendor-use-cases)
 
 ## Intro
 This directory was created to explain some PACE usecases
@@ -164,7 +164,7 @@ will be added later such as:
 - SCAP
 - ACAS
 - XCCDF
-- ... 
+- ...
 
 ## Parameters
 ### SBOM

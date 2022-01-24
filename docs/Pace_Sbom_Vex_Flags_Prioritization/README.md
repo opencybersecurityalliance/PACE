@@ -140,21 +140,31 @@ Acting will be the command and control
 sent to the various security technologies
 to implement the decision.
 
-The use cases will, to the extent possbile, attempt to be
+The use cases will, to the extent possible, attempt to be
 vendor-agnostic and describe the functionality, not a
 particular product or systems.
-The exceptions may be PACE or other OCA subprojects (eg Kestrel, Stixshifter)
+The exceptions may be PACE or other OCA subprojects (eg Kestrel, Stixshifter) where the OCA open source project may be mentioned.
 
 ## Assets
+These are the systems being protected.
+The systems doing the protecting will be called
+infrastructure as described previously.
 
 ## Attributes
-For the purpose of these use cases, the primary attributes involve software
-composition and SBOMs, VEX, NVD, etc.
+For the purpose of these use cases,
+the primary attributes involve software
+composition e.g. SBOM, VEX, NVD, etc.
 Each of these may have individual parameters of their own,
 which will be dealt with in the next section.
-Other attributes (e.g. threat intel from a relevant ISAC,
-Kestrel info on an intruder already in the system, ...)
-will be added later.
+Other attributes which will affect the security posture
+will be added later such as:
+- threat intel (STIX) from a relevant ISAC,
+- Kestrel info on an intruder already in the system,
+- OSCAL
+- SCAP
+- ACAS
+- XCCDF
+- ... 
 
 ## Parameters
 ### SBOM
@@ -289,11 +299,16 @@ of the flags.
 The following figures show the differences between the use cases
 based on the flags.
 
-I.E.01 ![IE01](./IE01.png)
+**I.E.01**
+![IE01](./IE01.png)
+*****
 
-II.A.01 ![IIA01](./IIA01.png)
+**II.A.01**
+![IIA01](./IIA01.png)
+*****
 
-III.D.01 ![IIID01](./IIID01.png)
+**III.D.01**
+![IIID01](./IIID01.png)
 
 ### Affected Flags
 A few examples are highlighted here to distinguish why VEX flags are needed

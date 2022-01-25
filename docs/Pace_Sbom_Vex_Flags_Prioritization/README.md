@@ -27,12 +27,35 @@
    + [Cybersecurity Vendor Use Cases](#cybersecurity-vendor-use-cases)
 
 ## Intro
-This directory was created to explain some PACE usecases
-showing different playbooks/actions for different settings
-of VEX flags in different environments.
+This directory was created to explain some
+Posture Attribute Collection & Evaluation (PACE)
+usecases
+showing different playbooks/actions for different settings of
+Vulnerability Exploitability eXchange (VEX)
+flags in different environments.
 
-These are an extension of the initial
-[PACE IPS use case](../ips-pcs-pes-usecase.md),
+For more information on technologies mentioned:
+- PACE:
+   + EDITOR's NOTE: add PACE link in future revision
+   + Posture Collection System (PCS)
+      - EDITOR's NOTE: add PACE link in future revision
+   + Posture Attribute Repository (PAR)
+      - EDITOR's NOTE: add PACE link in future revision
+   + Posture Evaluation System (PES)
+      - EDITOR's NOTE: add PACE link in future revision
+- SBOM:
+   + https://www.cisa.gov/sbom
+- VEX:
+   + https://ntia.gov/files/ntia/publications/vex_one-page_summary.pdf
+   + EDITOR's NOTE: add new CISA VEX link in future revision
+- Open Command and Control (OpenC2)
+   + https://openc2.org/
+- Collaborative Automated Course of Action Operations (CACAO)
+   + https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=cacao
+
+The usecases in this directory
+are an extension of the initial
+[PACE Intrusion Protection System (IPS) use case](../ips-pcs-pes-usecase.md),
 combined with use cases created for the SBOM Healthcare Proof of Concept
 (eventually need link),
 and then further extended

@@ -114,7 +114,7 @@ telling PCS to retrive SBOM from device_id=2345.
 4. PCS notifies Decision-Making Element command completed successfully {fillinhere}
 
 ### Getting VEX information from PACE
-This assumes some other element of the system
+This example assumes some other element of the system
 needs attributes from PACE.
 This example assumes that either no evaluation is necessary
 (eg retrieve the SBOM, as is, from previous example)
@@ -130,3 +130,16 @@ attribute (eg. a device SBOM as in {fillinhere})
 2. PAR replies
 
 ### Evaluating Risk from a new CVE
+
+This example assumes the Decision-Making element
+wants an evaluation performed,
+e.g. the security posture of a device based on its
+SBOM, VEX, the CVE's affecting the device, etc.
+
+![Figure 6](./pes_01.png)
+
+1. Decision-making element sends OpenC2 command to evaluate posture of a device (eg. {fillinhere})
+
+2,3,4. PES queries necessary attributes from PAR and runs evaluation algorithm
+
+5. PES returns result to command originator

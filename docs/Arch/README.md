@@ -78,7 +78,7 @@ combined PCS/PAR/PES APIs.
 
 ## Use Cases Illustrating Interfaces
 
-The following 3 use cases highlight one example of each of:
+The following use cases highlight one example of each of:
 - putting attributes into PACE
 - getting attributes from PACE
 - evaluating security posture using PACE
@@ -114,5 +114,19 @@ telling PCS to retrive SBOM from device_id=2345.
 4. PCS notifies Decision-Making Element command completed successfully {fillinhere}
 
 ### Getting VEX information from PACE
+This assumes some other element of the system
+needs attributes from PACE.
+This example assumes that either no evaluation is necessary
+(eg retrieve the SBOM, as is, from previous example)
+or that any evaluation as already been done and is stored
+in the PAR as just another attribute
+(eg the risk level of a particular device based on SBOM, VEX, NVD).
+
+![Figure 5](./par_01.png)
+
+1. Decision-making element sends OpenC2 command to retrieve
+attribute (eg. a device SBOM as in {fillinhere})
+
+2. PAR replies
 
 ### Evaluating Risk from a new CVE

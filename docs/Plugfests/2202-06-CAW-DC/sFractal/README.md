@@ -260,4 +260,23 @@ add more detail and on the 2 in
 https://github.com/sparrell/PACE/tree/arch2/docs/Arch#putting-an-sbom-into-pace
 with details on the various components, commands, and interfaces.
 
-Editor's note: need to flesh out and add in new, or if appropriate earlier, section(s) wrt IIA01 and IIID01 in https://github.com/sparrell/PACE/blob/vex2/docs/Pace_Sbom_Vex_Flags_Prioritization/README.md#not_affected-flags from a PACE perspective.
+Editor's note: need to flesh out and add in new,
+or if appropriate earlier, section(s)
+wrt IIA01 and IIID01 in
+https://github.com/sparrell/PACE/blob/vex2/docs/Pace_Sbom_Vex_Flags_Prioritization/README.md#not_affected-flags
+from a PACE perspective.
+
+### 3.2.6 Transformer Use Cases
+Editor's note: need to flesh out and add in new,
+or if appropriate earlier, section(s)
+wrt SBOM format difference/conversion/interaction
+use cases.
+E.g. what if SBOM S is in SPDX and SBOM C is in CycloneDx:
+- what if one is dependent on the other?
+- can PCS receive one format and PAR output that same SBOM in another?
+- besides formats, there are many serializations (JSON, XML, RDF, ...) - does it matter?
+- what use cases does it matter which format?
+Once use cases are fleshed out, sFractal hopes to
+(or talk others into)
+instantiate in Ogres the various opensource conversion tools
+between the various formats/serializations.

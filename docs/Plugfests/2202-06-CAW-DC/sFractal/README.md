@@ -273,7 +273,7 @@ wrt SBOM format difference/conversion/interaction
 use cases.
 E.g. what if SBOM S is in SPDX and SBOM C is in CycloneDx:
 - what if one is dependent on the other?
-- can PCS receive one format and PAR output that same SBOM in another?
+- can PCS receive one format and PAR output that same SBOM in a different format than it arrived?
 - besides formats, there are many serializations (JSON, XML, RDF, ...) - does it matter?
 - what use cases does it matter which format?
 Once use cases are fleshed out, sFractal hopes to

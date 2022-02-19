@@ -195,6 +195,7 @@ SBOM products like:
 - Adolus [FACT](https://adolus.com/fact/overview/)
 - Vigilant Ops [Insight](https://www.vigilant-ops.com/products/)
 - Jitsuin [RKVST](https://www.rkvst.com/)
+- Fortress Security [Platform](https://fortressinfosec.com/solutions/fortress-platform)
 - and probably a bunch of others I am forgetting.
 
 These new lycans would sit between the bus

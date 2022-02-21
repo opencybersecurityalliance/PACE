@@ -228,11 +228,31 @@ QuadBlockQuiz, and CybersecurityAutomationWorkshop.com
 will be devices in the lower left of the figure above.
 
 ### 3.2.1 PCS Use Cases
+Editor's note:
 add more detail and on the 1,2,3,4 in
 https://github.com/sparrell/PACE/tree/arch2/docs/Arch#putting-an-sbom-into-pace
 with details on the various components, commands, and interfaces.
 
+Editor's note:
+add use case for SBOM on device and OpenC2 to get it
+
+Editor's note:
+add use case for MUD on device, referring to URL, and OpenC2
+to get SBOM from URL
+
+Editor's note:
+add use case where orchestrator 'just knows' the URL of SBOM
+and OpenC2 gets SBOM from URL
+
+Editor's note:
+add use case where orchestrator tells PCS1 to get SBOM
+from PAR2 to put in PAR1;
+and OpenC2 gets SBOM from PAR2 in combo with
+other side use case from next section
+
+
 ### 3.2.2 PAR Use Cases
+Editor's note:
 add more detail and on the 3 in
 https://github.com/sparrell/PACE/tree/arch2/docs/Arch#putting-an-sbom-into-pace
 and on 1,2 in
@@ -242,11 +262,29 @@ https://github.com/sparrell/PACE/tree/arch2/docs/Arch#putting-an-sbom-into-pace
 with details on the various components, commands, and interfaces.
 
 ### 3.2.3 PES Use Cases
+Editor's note:
 add more detail and on the 1,2,3,4,5 in
 https://github.com/sparrell/PACE/tree/arch2/docs/Arch#evaluating-risk-from-a-new-cve
 with details on the various components, commands, and interfaces.
 
+Editor's note:
+Add use case where
+Orchestrator queries PES
+"is device_1234 affected by CVE_shellshock?"
+(ie an old already fixed one but we probably still don't know answer).
+Sub-use cases with replies:
+- has vex, fixed, no
+- no vex, has sbom, no
+- no vex, incomplete sbom, probably not (risk score?)
+- scanned with tool whatever, probably not (risk score?)
+
+Editor's note:
+Add variants of previous usecase with newer cve's (solar wind,
+log4j) including lower risk score, including "yes exploitable", ...
+
+
 ### 3.2.4 Orchestrator Use Cases
+Editor's note:
 add more detail and on the 1,4 in
 https://github.com/sparrell/PACE/tree/arch2/docs/Arch#putting-an-sbom-into-pace
 and on 1,2 in
@@ -256,6 +294,7 @@ https://github.com/sparrell/PACE/tree/arch2/docs/Arch#putting-an-sbom-into-pace
 with details on the various components, commands, and interfaces.
 
 ### 3.2.5 EndPoint Use Cases
+Editor's note:
 add more detail and on the 2 in
 https://github.com/sparrell/PACE/tree/arch2/docs/Arch#putting-an-sbom-into-pace
 with details on the various components, commands, and interfaces.

@@ -71,7 +71,7 @@ E.g. One PCS for each of five regions.
 
 In Figure 3 above, there are five PCS, four PAR, three PES and
 two monolithic PACE systems,
-each with there own interface to the integration bus.
+each with their own interface to the integration bus.
 Note the monolithic systems (P1,P2) interface as if they
 were component systems as the monolithic API is just the
 combined PCS/PAR/PES APIs.

@@ -67,3 +67,13 @@ tbd
 language for cybersecurity.
 PACE uses OpenC2 for sending commands.
 See {need to add link to arch or example or ...}
+
+## How does PACE relate to the Security Content
+Automation Protocol (SCAP)?
+tbd
+
+## How does PACE relate to Security Automation and Continuous Monitoring (SACM)?
+tbd
+
+## How does PACE relate to the Situational Awareness Reference Architecture (SARA)?
+tbd

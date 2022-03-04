@@ -68,6 +68,13 @@ language for cybersecurity.
 PACE uses OpenC2 for sending commands.
 See {need to add link to arch or example or ...}
 
+## How does CACAO relate to PACE?
+[Collaborative Automated Course of Action Operations](https://docs.oasis-open.org/cacao/security-playbooks/v1.0/security-playbooks-v1.0.html)
+(CACAO) playbooks contain decision points and actions to be taken.
+Many of the decision points will use security posture,
+i.e. PACE data,
+to decide on the course of action.
+
 ## How does PACE relate to the Security Content
 Automation Protocol (SCAP)?
 tbd
@@ -76,4 +83,17 @@ tbd
 tbd
 
 ## How does PACE relate to the Situational Awareness Reference Architecture (SARA)?
-tbd
+The
+[Situational Awareness Reference Architecture](http://ics-isac.org/sara/)
+(SARA) was created by the ICS-ISAC "for industrial facility owners and operators as an open source guide to establishing and maintaining situational awareness." They break SARA into 4 components:
+- Identity
+- Inventory
+- Activity
+- Sharing
+
+PACE is for collecting and evaluating security posture attributes.
+PACE can serve as part of SARA sharing -
+i.e. SARA can create security posture attributes
+to be collected by PACE.
+In addition security posture provided by PACE
+can be input to SARA.

@@ -36,11 +36,11 @@ collection using open source tools such as
 [osquery](https://osquery.io/) and [nmap](https://nmap.org/),
 using OpenC2 to control collection activities. An OpenC2 Actuator
 Profile (AP) for Security Posture Attribute Collection is an
-anticipated product of this work. 
+anticipated product of this work.
 
 ## Join Us
 
-PACE holds weekly meetings on Mondays from 1:00-1:45 pm Eastern Time each week. Meeting information can be found [here](https://lists.oasis-open-projects.org/g/oca-pace-wg/topic/recurring_meeting_information/87643048?p=,,,20,0,0,0::recentpostdate/sticky,,,20,2,0,87643048,previd=1640027429628269036,nextid=1638991996465829715&previd=1640027429628269036&nextid=1638991996465829715). 
+PACE holds weekly meetings on Mondays from 1:00-1:45 pm Eastern Time each week. Meeting information can be found [here](https://lists.oasis-open-projects.org/g/oca-pace-wg/topic/recurring_meeting_information/87643048?p=,,,20,0,0,0::recentpostdate/sticky,,,20,2,0,87643048,previd=1640027429628269036,nextid=1638991996465829715&previd=1640027429628269036&nextid=1638991996465829715).
 
 ## Documentation
 
@@ -58,7 +58,7 @@ future use cases that could be implemented.
    to its implemenation. This concept document also illustrates a
    potential use for the presently-undefined OpenC2 notification
    message concept.
-  
+
  * The [18 October 2021 Status
    Update](https://github.com/opencybersecurityalliance/PACE/blob/main/docs/2021-10-18_HII_PACE-Prototype-Update.pdf)
    illustrates messages flows and gives an overview of the
@@ -93,3 +93,7 @@ v2](https://csrc.nist.gov/projects/security-content-automation-protocol-v2/scapv
 * [SCAP v2 Data Collection Architecture](docs/SCAPv2/SCAP%20v2%20Data%20Collection%20Architecture%2020200818.docx.pdf) - Document, 18 August 2020
 * [Data Collection Architecture](docs/SCAPv2/Data%20Collection%20Architecture%20Sub-Group%20-%20Fall%20Workshop%20Briefing.pdf) - Fall Workshop briefing, 29 September 2020
 * [SCAPv2 and OpenC2](docs/SCAPv2/SCAPv2%20and%20OpenC2.pdf) - Fall Workshop briefing, 29 September 2020
+
+See
+[Frequently Asked Questions](./FAQ/README.md) 
+for more information about PACE

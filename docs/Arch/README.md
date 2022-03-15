@@ -113,6 +113,27 @@ telling PCS to retrive SBOM from device_id=2345.
 
 4. PCS notifies Decision-Making Element command completed successfully {fillinhere}
 
+
+#### OpenC2-Based Candidate Implementation Approach
+
+The architecture and sequence diagrams below refine the **Putting an SBOM into PACE** use case above by identifying applicable OpenC2 APs and other APIs, and suggesting approximate OpenC2 request message content. The use case includes the following assumptions:
+
+ * The Decision Making component (DM) has pre-selected a preferred SBOM type and serialization (SPDX in JSON format)
+ * The SBOM is available directly from the component of interest ("ComponentX")
+ * The interface from DM to the PCS uses a to-be-specified "PCS AP", with specification of component of interest modeled on the [Actuator Specifiers](https://github.com/oasis-tcs/openc2-ap-pf/blob/working/oc2pf.md#214-actuator-specifiers) currently defined in the draft [Packet Filtering AP](https://github.com/oasis-tcs/openc2-ap-pf/blob/working/oc2pf.md)
+
+##### Figure 4a: Get SBOM Architecture With Interfaces
+
+![Figure 4a](OC2_Get_SBOM_Arch.png)
+
+##### Figure 4b: Get SBOM Architecture Sequence With Messages
+
+![Figure 4b](OC2_Get_SBOM_Seq.png)
+
+
+
+
+
 ### Getting VEX information from PACE
 This example assumes some other element of the system
 needs attributes from PACE.

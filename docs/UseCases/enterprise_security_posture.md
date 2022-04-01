@@ -34,4 +34,7 @@ particular vulnerability in a
 particular asset, but when under attack additional
 resources may be brought in for enhanced monitoring of this device).
 
-![ESP01](./Images/esp01.png)
+Many other use cases will be developed concerning the details
+beneath this high level overview.
+
+![ESP01](./Images/EnterprisePosture.png)

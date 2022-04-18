@@ -7,15 +7,10 @@ How the decision-maker obtained the URL is immaterial
 to this use case. It may have been from vendor documentation
 or it may have been from MUD (add reference) or ...
 
-The command sequencing can be seen in either of the following
-figures depending on whether the internet is accessed
-over the integration bus or directly.
-
-![Collect02](./Images/CollectSbomFromUrl.png)
-
-How the internet is accessed is still an open item for discussion.
+The PCS interface to the internet is outside the scope
+of PACE as how the system does it will not affect interworking.
 
 ![Collect03](./Images/CollectSbomFromUrl2.png)
 
-Note the above diagrams assume the component PACE architecture.
-Similar diagrams could be made for the monolithic PACE architecture.
+Note the above diagram assumes the component PACE architecture.
+A similar diagram could be made for the monolithic PACE architecture.

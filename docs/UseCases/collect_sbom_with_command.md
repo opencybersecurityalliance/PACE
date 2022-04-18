@@ -4,10 +4,8 @@ This is a PCS use case where a decision-maker (outside PACE)
 gives PACE (the PAR component of PACE is particular)
 an SBOM.
 
-Note this is the same whether monolithic or component PACE architecture
-since only the PAR is involved.
+The PAR can only be written to by the PCS and the PES.
+In this case, it is the PCS that receives the command
+from the decision-maker and writes to the PAR.
 
 ![Collect01a](./Images/CollectSbomWithCommand.png)
-
-Note this is the same command as when a PCS puts an SBOM in the PAR -
-eg step 4 in [Collect SBOM from Device](./CollectSbomFromDevice.md).

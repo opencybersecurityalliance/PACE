@@ -10,8 +10,6 @@ PACE.
 
 ![Collect01a](./Images/CollectSbomFromDevice.png)
 
-![Collect01b](./Images/CollectSbomFromDevice2.png)
-
 Note that to the outside world, the two PACE systems behave the same
 with the same interfaces.
 The difference is the internal interfaces are public standard
@@ -19,6 +17,8 @@ interfaces in one case, and internal proprietary interfaces
 in the other.
 
 The first case also allows for interworking between different implementations
-of PCS/PAR whereas.
+of PCS/PAR.
 E.g. where vendor1 provided the PCS and an open source project
 was used for the PAR.
+
+![Collect01b](./Images/CollectSbomFromDevice2.png)

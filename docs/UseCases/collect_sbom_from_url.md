@@ -3,6 +3,9 @@
 This is a PCS use case where decision-maker (outside PACE)
 requests PACE (the PCS component of PACE is particular)
 to obtain an SBOM by going to a particular URL.
+How the decision-maker obtained the URL is immaterial
+to this use case. It may have been from vendor documentation
+or it may have been from MUD (add reference) or ...
 
 The command sequencing can be seen in either of the following
 figures depending on whether the internet is accessed
@@ -10,4 +13,9 @@ over the integration bus or directly.
 
 ![Collect02](./Images/CollectSbomFromUrl.png)
 
+How the internet is accessed is still an open item for discussion.
+
 ![Collect03](./Images/CollectSbomFromUrl2.png)
+
+Note the above diagrams assume the component PACE architecture.
+Similar diagrams could be made for the monolithic PACE architecture.

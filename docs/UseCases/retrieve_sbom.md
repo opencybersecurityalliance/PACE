@@ -5,17 +5,23 @@ to obtain the previously stored SBOM data -
 there are many subtle variants.
 
 ## Retrieve SBOM as provided
-The most obvious is to retrieve the SBOM in the same
+The simplest, most obvious retrieval case
+is to retrieve the SBOM in the same
 format and serialization which was originally provided to PACE.
 For example a CycloneDX JSON SBOM was collected
 from a particular device,
 and decision-maker
-requests a CycloneDX JSON SBOM.
+requests that CycloneDX JSON SBOM.
+
+The flow may look like the following,
+but note this may not be an acceptable architecture
+(read futher to understand the issue).
 
 ![retrieve_sbom_01](./Images/retrieve_sbom_01.png)
 
 A similar use case is a Posture Evaluation System (PES)
-requests that same CycloneDX JSON SBOM.
+requests that same CycloneDX JSON SBOM
+(ie orginal format and serialization).
 
 ![retrieve_sbom_02](./Images/retrieve_sbom_01b.png)
 

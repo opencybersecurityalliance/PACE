@@ -4,6 +4,7 @@ Although this is a very straight forward use case -
 to obtain the previously stored SBOM data -
 there are many subtle variants.
 
+## Retrieve SBOM as provided
 The most obvious is to retrieve the SBOM in the same
 format and serialization which was originally provided to PACE.
 For example a CycloneDX JSON SBOM was collected
@@ -18,12 +19,11 @@ requests that same CycloneDX JSON SBOM.
 
 ![retrieve_sbom_02](./Images/retrieve_sbom_01b.png)
 
-
-
-![retrieve_sbom_02](./Images/retrieve_sbom_02.png)
-
+## Format/serialization Conversions
 Some PACE systems will have the ability to transform
 the format or the serialization of the SBOM.
+
+![retrieve_sbom_02](./Images/retrieve_sbom_02.png)
 
 There are 4 classes of transformations in this figure:
 
@@ -52,9 +52,15 @@ the flow would be:
 
 ![retrieve_sbom_04](./Images/retrieve_sbom_04.png)
 
+## Subset of SBOM data
+
 All of the above is for the entire SBOM.
 It is a separate use case for individual fields in the SBOM
 to be requested instead of the entire SBOM.
 Ie request 'data from the SBOM' instead of the entire SBOM.
+See NeedToFillIn.
+
+## SBOM evaluation
 It is also a separate use case to request evaluation of the data
 from the SBOM.
+See NeedToFillIn/

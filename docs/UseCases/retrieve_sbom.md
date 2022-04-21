@@ -29,7 +29,7 @@ Therefore the following flow is proposed even for the
 
 <p align="center">Figure 1</p>
 
-![retrieve_sbom_01](./Images/retrieve_sbom_02.png)
+![retrieve_sbom_01](./Images/retrieve_sbom_01.png)
 
 A similar use case is a Posture Evaluation System (PES)
 requests that same CycloneDX JSON SBOM
@@ -37,7 +37,7 @@ requests that same CycloneDX JSON SBOM
 
 <p align="center">Figure 2</p>
 
-![retrieve_sbom_02](./Images/retrieve_sbom_01b.png)
+![retrieve_sbom_02](./Images/retrieve_sbom_02.png)
 
 ## Format/serialization Conversions
 Some PACE systems will have the ability to transform
@@ -50,13 +50,13 @@ There are 4 classes of transformations in figure 3:
 
 ![retrieve_sbom_03](./Images/retrieve_sbom_03.png)
 
-- S1 - convert between CycloneDx serializations (eg between JSON and XML). Examples of tools that can do this include:
+- cdx2cdx - convert between CycloneDx serializations (eg between JSON and XML). Examples of tools that can do this include:
    + https://github.com/CycloneDX/cyclonedx-cli
-- S2 - convert between SPDX serializations (eg between JSON and RDF)
+- spdx2spdx - convert between SPDX serializations (eg between JSON and RDF)
    + ?
-- F1 - convert from CycloneDX to SPDX
+- cdx2spdx - convert from CycloneDX to SPDX
    + ?
-- F2 - convert from SPDX to CycloneDX
+- spdx2cdx - convert from SPDX to CycloneDX
    + https://github.com/CycloneDX/cyclonedx-cli
 
 ## Subset of SBOM data

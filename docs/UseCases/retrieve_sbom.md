@@ -16,6 +16,10 @@ requests a CycloneDX JSON SBOM.
 A similar use case is a Posture Evaluation System (PES)
 requests that same CycloneDX JSON SBOM.
 
+![retrieve_sbom_02](./Images/retrieve_sbom_01b.png)
+
+
+
 ![retrieve_sbom_02](./Images/retrieve_sbom_02.png)
 
 Some PACE systems will have the ability to transform
@@ -30,8 +34,15 @@ There are 4 classes of transformations in this figure:
 - F1 - convert from CycloneDX to SPDX
 - F2 - convert from SPDX to CycloneDX
 
-Althought the commands remain identical as in the previous diagrams,
+Although the commands remain identical as in the previous diagrams,
 the flow may be different.
+
+There are potential security issues with direct access
+to the PAR in the first figure above.
+Thinking at the moment is to limit access to the PAR
+to only the PCS and PES.
+This would result in the simple case above being handled the
+same way as a PES use case.
 
 Architectural question - will this transformation be done
 as part of the PAR or is it a PES function.

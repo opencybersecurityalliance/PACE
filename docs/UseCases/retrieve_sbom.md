@@ -50,14 +50,29 @@ There are 4 classes of transformations in figure 3:
 
 ![retrieve_sbom_03](./Images/retrieve_sbom_03.png)
 
-- cdx2cdx - convert between CycloneDx serializations (eg between JSON and XML). Examples of tools that can do this include:
-   + https://github.com/CycloneDX/cyclonedx-cli
+Descriptions of each transformation follow.
+Examples of tools that can do each transformation are listed.
+It is not an exhaustive tool list
+and no validation has been done.
+Some tools are open source and some are commercial.
+
+- cdx2cdx - convert between CycloneDx serializations (eg between JSON and XML). Examples of tools which can do this include:
+   + cyclonedx-cli https://github.com/CycloneDX/cyclonedx-cli
+   + Cybeats SBOM Studio https://www.cybeats.com/sbom-studio
+   + ?
 - spdx2spdx - convert between SPDX serializations (eg between JSON and RDF). Examples of tools that can do this include:
+   + SPDX Online Tool https://tools.spdx.org/app/convert/
+   + Cybeats SBOM Studio https://www.cybeats.com/sbom-studio
    + ?
 - cdx2spdx - convert from CycloneDX to SPDX. Examples of tools that can do this include:
+   + cyclonedx-cli https://github.com/CycloneDX/cyclonedx-cli
+   + Cybeats SBOM Studio https://www.cybeats.com/sbom-studio
    + ?
 - spdx2cdx - convert from SPDX to CycloneDX. Examples of tools that can do this include:
-   + https://github.com/CycloneDX/cyclonedx-cli
+   + cyclonedx-cli https://github.com/CycloneDX/cyclonedx-cli
+   + swiftBOM https://democert.org/sbom/
+   + Cybeats SBOM Studio https://www.cybeats.com/sbom-studio
+   + ?
 
 ## Subset of SBOM data
 

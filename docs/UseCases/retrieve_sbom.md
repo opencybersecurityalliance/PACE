@@ -52,11 +52,11 @@ There are 4 classes of transformations in figure 3:
 
 - cdx2cdx - convert between CycloneDx serializations (eg between JSON and XML). Examples of tools that can do this include:
    + https://github.com/CycloneDX/cyclonedx-cli
-- spdx2spdx - convert between SPDX serializations (eg between JSON and RDF)
+- spdx2spdx - convert between SPDX serializations (eg between JSON and RDF). Examples of tools that can do this include:
    + ?
-- cdx2spdx - convert from CycloneDX to SPDX
+- cdx2spdx - convert from CycloneDX to SPDX. Examples of tools that can do this include:
    + ?
-- spdx2cdx - convert from SPDX to CycloneDX
+- spdx2cdx - convert from SPDX to CycloneDX. Examples of tools that can do this include:
    + https://github.com/CycloneDX/cyclonedx-cli
 
 ## Subset of SBOM data

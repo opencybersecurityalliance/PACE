@@ -15,24 +15,28 @@ requests that CycloneDX JSON SBOM.
 
 The flow may look like the following,
 but note this may not be an acceptable architecture
-(read futher to understand the issue).
+(read further to understand the issue).
 
+<p align="center">Figure 1</p>
 ![retrieve_sbom_01](./Images/retrieve_sbom_01.png)
 
 A similar use case is a Posture Evaluation System (PES)
 requests that same CycloneDX JSON SBOM
 (ie orginal format and serialization).
 
+<p align="center">Figure 2</p>
 ![retrieve_sbom_02](./Images/retrieve_sbom_01b.png)
 
 ## Format/serialization Conversions
 Some PACE systems will have the ability to transform
 the format or the serialization of the SBOM.
 
+<p align="center">Figure 3</p>
 ![retrieve_sbom_02](./Images/retrieve_sbom_02.png)
 
 There are 4 classes of transformations in this figure:
 
+<p align="center">Figure 4</p>
 ![retrieve_sbom_03](./Images/retrieve_sbom_03.png)
 
 - S1 - convert between CycloneDx serializations (eg between JSON and XML)
@@ -57,6 +61,12 @@ This means that when a transformation is required,
 the flow would be:
 
 ![retrieve_sbom_04](./Images/retrieve_sbom_04.png)
+
+## Retrieve SBOM as provided - reprise
+The concept of direct access
+to the PAR API
+from outside the PACE system
+is still open to debate.
 
 ## Subset of SBOM data
 

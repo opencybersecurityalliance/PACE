@@ -42,53 +42,22 @@ requests that same CycloneDX JSON SBOM
 ## Format/serialization Conversions
 Some PACE systems will have the ability to transform
 the format or the serialization of the SBOM.
+The flow  would be the same as in Figure 1.
+
+There are 4 classes of transformations in figure 3:
 
 <p align="center">Figure 3</p>
 
-![retrieve_sbom_02](./Images/retrieve_sbom_02.png)
-
-There are 4 classes of transformations in this figure:
-
-<p align="center">Figure 4</p>
-
 ![retrieve_sbom_03](./Images/retrieve_sbom_03.png)
 
-- S1 - convert between CycloneDx serializations (eg between JSON and XML)
+- S1 - convert between CycloneDx serializations (eg between JSON and XML). Examples of tools that can do this include:
+   + https://github.com/CycloneDX/cyclonedx-cli
 - S2 - convert between SPDX serializations (eg between JSON and RDF)
+   + ?
 - F1 - convert from CycloneDX to SPDX
+   + ?
 - F2 - convert from SPDX to CycloneDX
-
-Although the commands remain identical as in the previous diagrams,
-the flow may be different.
-
-There are potential security issues with direct access
-to the PAR in the first figure above.
-Thinking at the moment is to limit access to the PAR
-to only the PCS and PES.
-This would result in the simple case above being handled the
-same way as a PES use case.
-
-Architectural question - will this transformation be done
-as part of the PAR or is it a PES function.
-This text is proposing it is part of PAR function so that PAR is data only.
-This means that when a transformation is required,
-the flow would be:
-
-<p align="center">Figure 5</p>
-
-![retrieve_sbom_04](./Images/retrieve_sbom_04.png)
-
-## Retrieve SBOM as provided - reprise
-The concept of direct access
-to the PAR API
-from outside the PACE system
-is still open to debate.
-Reasons to consider always using the architecture
-in Figure 5 (even for the case of Figure 1)
-If the authentication/authorization resides entirely
-with the PCS or PES components,
-then the simple retrieve SBOM case of Figure 1
-would use the architecture of Figure 3.
+   + https://github.com/CycloneDX/cyclonedx-cli
 
 ## Subset of SBOM data
 
@@ -101,4 +70,4 @@ See NeedToFillIn.
 ## SBOM evaluation
 It is also a separate use case to request evaluation of the data
 from the SBOM.
-See NeedToFillIn/
+See NeedToFillIn.

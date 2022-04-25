@@ -16,7 +16,7 @@ requests that CycloneDX JSON SBOM.
 Although direct access to the PAR would meet the need
 for this simple retrieval,
 there are several issues:
-- if a transformation was necessary (eg json to xml, or SPDX to CycloneDX), that is a PES function instead of a pure data retrieval
+- if a transformation was necessary (eg json to xml, or SPDX to CycloneDX) that is a PES function instead of a pure data retrieval
 - there are security issues with direct access to the PAR data store. These are mitigated if the authentication/authorization resides entirely within the PCS or PES components
 
 The first issue is particularly relevant to the architectural flow
@@ -42,7 +42,7 @@ requests that same CycloneDX JSON SBOM
 ## Format/serialization Conversions
 Some PACE systems will have the ability to transform
 the format or the serialization of the SBOM.
-The flow  would be the same as in Figure 1.
+The flows would be the same as in Figures 1,2.
 
 There are 4 classes of transformations in figure 3:
 

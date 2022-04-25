@@ -97,3 +97,39 @@ i.e. SARA can create security posture attributes
 to be collected by PACE.
 In addition security posture provided by PACE
 can be input to SARA.
+
+## What is PACE scope of work?
+https://github.com/opencybersecurityalliance/PACE/issues/7
+2022-01-31: During the PACE meeting it was thought that scope of work should speak to what we are actually looking to build.  Scope indicates what PACE will specify and develop.  
+
+Scope will be broken apart into several children issues such as Asset Inventory, Hardware BOM, open source software repo's within PACE (ie. on OCA open project), SBOM-preferred ala STIX-preferred, PAR, etc.
+
+## Will the SACM architecture draft be pulled into this group?
+https://github.com/opencybersecurityalliance/PACE/issues/22
+SACM architecture ID is foundation / inspiration for the prototyping work to be done under OCA PACE.  As the focus of the PACE effort is prototyping, the SCAM Architecture draft will not need to be updated, revised, or expanded.  PACE results should inform any future reincarnation of the SACM draft.
+
+## How do we want to organize code repositiories?
+https://github.com/opencybersecurityalliance/PACE/issues/24
+The PGB decided at the Feb meeting to delegate repo permission to the TSC and the projects (ie project proposes, TSC approves).  Any PACE member can propose a new repo, it can be discussed at a Monday meeting, and unless there are objections, the repo could be created (after TSC approves).
+
+## Is Asset Inventory within in PACE scope?
+https://github.com/opencybersecurityalliance/PACE/issues/28
+Asset Inventory is out of scope.  IT Asset Management, e.g., https://www.solarwinds.com/solutions/it-asset-management, is outside the PACE boundary but must be in-scope for both the architecture (#31) and even a first / minimum-viable prototype. In order to get started on a prototype, we will at least need a spreadsheet of "Components whose architecture is assessed", but in order to make even a spreadsheet realistic we'll need to learn what data is maintained in ITAM products (e.g., https://snipeitapp.com/). Hardware and software versions might or might not be included.  
+
+## Is Hardware BOM within in PACE scope?
+https://github.com/opencybersecurityalliance/PACE/issues/29
+Hardware BOMs are currently out of scope. 
+
+## What "query language(s)" should be used for PACE?
+https://github.com/opencybersecurityalliance/PACE/issues/42
+
+
+## Should pace "pick a winner" for PAR database?
+https://github.com/opencybersecurityalliance/PACE/issues/43
+Consensus is to not pick a winner.  Spcifying interfaces may way in on the implementation.
+
+
+## Can there be more than one OCA PACE reference implementations?
+https://github.com/opencybersecurityalliance/PACE/issues/44
+Yes, there should be multiple implementations.  
+

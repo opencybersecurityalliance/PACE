@@ -38,6 +38,13 @@ using OpenC2 to control collection activities. An OpenC2 Actuator
 Profile (AP) for Security Posture Attribute Collection is an
 anticipated product of this work.
 
+A [Security Posture website](https://securityattributes.org/) has
+been created to capture PACE use cases and operating scenarios.
+Contributors are encouraged to review the [Security Posture By
+Example](https://securityattributes.org/By_Example/) pages and
+both enhance existing descriptions and add new use cases for
+consideration by the PACE project.
+
 ## Join Us
 
 PACE holds monthly meetings via Zoom on the second Monday of each

@@ -40,7 +40,11 @@ anticipated product of this work.
 
 ## Join Us
 
-PACE holds weekly meetings on Mondays from 1:00-1:45 pm Eastern Time each week. Meeting information can be found [on the PACE calendar](https://lists.oasis-open-projects.org/g/oca-pace-wg/calendar).
+PACE holds monthly meetings via Zoom on the second Monday of each
+ month from 1:00-1:45 pm Eastern Time each week. Meeting
+ information can be found [on the PACE
+ calendar](https://lists.oasis-open-projects.org/g/oca-pace-wg/calendar).\
+ _(Updated 3 October 2022)_
 
 ## Documentation
 

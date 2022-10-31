@@ -38,9 +38,20 @@ using OpenC2 to control collection activities. An OpenC2 Actuator
 Profile (AP) for Security Posture Attribute Collection is an
 anticipated product of this work.
 
+A [Security Posture website](https://securityattributes.org/) has
+been created to capture PACE use cases and operating scenarios.
+Contributors are encouraged to review the [Security Posture By
+Example](https://securityattributes.org/By_Example/) pages and
+both enhance existing descriptions and add new use cases for
+consideration by the PACE project.
+
 ## Join Us
 
-PACE holds weekly meetings on Mondays from 1:00-1:45 pm Eastern Time each week. Meeting information can be found [here](https://lists.oasis-open-projects.org/g/oca-pace-wg/topic/recurring_meeting_information/87643048?p=,,,20,0,0,0::recentpostdate/sticky,,,20,2,0,87643048,previd=1640027429628269036,nextid=1638991996465829715&previd=1640027429628269036&nextid=1638991996465829715).
+PACE holds monthly meetings via Zoom on the second Monday of each
+ month from 1:00-1:45 pm Eastern Time each week. Meeting
+ information can be found [on the PACE
+ calendar](https://lists.oasis-open-projects.org/g/oca-pace-wg/calendar).\
+ _(Updated 3 October 2022)_
 
 ## Documentation
 

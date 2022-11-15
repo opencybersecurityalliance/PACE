@@ -196,6 +196,7 @@ SBOM products like:
 - Vigilant Ops [Insight](https://www.vigilant-ops.com/products/)
 - Jitsuin [RKVST](https://www.rkvst.com/)
 - Fortress Security [Platform](https://fortressinfosec.com/solutions/fortress-platform)
+- Anchore [Syft/Grype](https://anchore.com/sbom/) - note the tools are open source and more on creation / lookup vulns but the company sells sbom mgmt as well
 - and probably a bunch of others I am forgetting.
 
 These new lycans would sit between the bus

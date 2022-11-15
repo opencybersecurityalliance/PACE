@@ -2,7 +2,7 @@
 ![OASIS Logo](https://docs.oasis-open.org/templates/OASISLogo-v3.0.png)
 -------
 
-# PACE Architecture Specification Version 1.0.0
+# PACE Specification Version 1.0.0
 
 ## Project Specification Draft 01
 
@@ -13,17 +13,17 @@
 <!-- URI list start (commented out except during publication by OASIS TC Admin)
 
 #### This stage:
-https://docs.oasis-open-projects.org/oca/PaceArch/v1.0.0/psd01/PaceArch-v1.0.0-psd01.md (Authoritative) \
-https://docs.oasis-open-projects.org/oca/PaceArch/v1.0.0/psd01/PaceArch-v1.0.0-psd01.html \
-https://docs.oasis-open-projects.org/oca/PaceArch/v1.0.0/psd01/PaceArch-v1.0.0-psd01.pdf
+https://docs.oasis-open-projects.org/oca/Pace/v1.0.0/psd01/Pace-v1.0.0-psd01.md (Authoritative) \
+https://docs.oasis-open-projects.org/oca/Pace/v1.0.0/psd01/Pace-v1.0.0-psd01.html \
+https://docs.oasis-open-projects.org/oca/Pace/v1.0.0/psd01/Pace-v1.0.0-psd01.pdf
 
 #### Previous stage:
 N/A
 
 #### Latest stage:
-https://docs.oasis-open-projects.org/oca/PaceArch/v1.0.0/PaceArch-v1.0.0.md (Authoritative) \
-https://docs.oasis-open-projects.org/oca/PaceArch/v1.0.0/PaceArch-v1.0.0.html \
-https://docs.oasis-open-projects.org/oca/PaceArch/v1.0.0/PaceArch-v1.0.0.pdf
+https://docs.oasis-open-projects.org/oca/Pace/v1.0.0/Pace-v1.0.0.md (Authoritative) \
+https://docs.oasis-open-projects.org/oca/Pace/v1.0.0/Pace-v1.0.0.html \
+https://docs.oasis-open-projects.org/oca/Pace/v1.0.0/Pace-v1.0.0.pdf
 
 URI list end (commented out except during publication by OASIS TC Admin) -->
 
@@ -52,24 +52,59 @@ This specification is related to:
 `(remove "Related work" section or the "replaces" or "related" subsections if no entries)`
 
 #### Abstract:
-Posture Attribute Collection & Evaluation (PACE) is a comprehensive automated strategy for understanding security posture and what to do about it. The PACE Architecture Specification defines the architecture of a PACE system. Companion specifications (Security Posture Attributes, PACE Interfaces) define the data used to determine security posture, and the interfaces to allow PACE systems to interact with other systems.
+Posture Attribute Collection & Evaluation (PACE)
+is a comprehensive automated strategy
+for understanding security posture
+and what to do about it. 
+The PACE Specification
+defines the architecture of a PACE system,
+the interfaces to allow PACE systems
+to interact with other systems,
+and the security posture attributes
+utilized by a PACE system.
 
 #### Status:
-This document was last revised or approved by Posture Attribute Collection and Evaluation, part of the OASIS Open CyberSecurity Alliance Open Project, on the above date. The level of approval is also listed above. Check the "Latest stage" location noted above for possible later revisions of this document. Any other numbered Versions and other technical work produced by the Open Project (OP) are listed at https://opencybersecurityalliance.org/.
+This document was last revised or approved
+by the OASIS Open CyberSecurity Alliance Open Project,
+on the above date.
+The level of approval is also listed above.
+Check the "Latest stage" location
+noted above for possible later revisions of this document.
+Any other numbered Versions
+and other technical work produced by the Open Project (OP)
+are listed at https://opencybersecurityalliance.org/.
 
-Comments on this work can be provided by opening issues in the project repository or by sending email to the project’s public comment list baseline@lists.oasis-open-projects.org.
+Comments on this work can be provided by opening issues
+in the project repository
+or by sending email to the project’s public comment list
+baseline@lists.oasis-open-projects.org.
 
-Note that any machine-readable content ([Computer Language Definitions](https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26/#wpComponentsCompLang)) declared Normative for this Work Product is provided in separate plain text files. In the event of a discrepancy between any such plain text file and display content in the Work Product's prose narrative document(s), the content in the separate plain text file prevails.
+Note that any machine-readable content
+([Computer Language Definitions](https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26/#wpComponentsCompLang))
+declared Normative for this Work Product
+is provided in separate plain text files.
+In the event of a discrepancy
+between any such plain text file
+and display content
+in the Work Product's prose narrative document(s),
+the content in the separate plain text file prevails.
 
 #### Key words:
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in BCP 14 [[RFC2119](#rfc2119)] and [[RFC8174](#rfc8174)] when, and only when, they appear in all capitals, as shown here.
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL",
+"SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",
+"NOT RECOMMENDED", "MAY", and "OPTIONAL"
+in this document are to be interpreted
+as described in BCP 14 [[RFC2119](#rfc2119)] and
+[[RFC8174](#rfc8174)] when, and only when,
+they appear in all capitals, as shown here.
 
 #### Citation format:
-When referencing this specification the following citation format should be used:
+When referencing this specification
+the following citation format should be used:
 
-**[PaceArch-v1.0.0]**
+**[Pace-v1.0.0]**
 
-_PACE Architecture Specification Version 1.0.0_. Edited by Duncan Sparrell. 01 November 2022. OASIS Project Specification Draft 01. https://docs.oasis-open-projects.org/oca/PaceArch/v1.0.0/psd01/PaceArch-v1.0.0-psd01.html. Latest stage: https://docs.oasis-open-projects.org/oca/PaceArch/v1.0.0/PaceArch-v1.0.0.html.
+_PACE Specification Version 1.0.0_. Edited by Duncan Sparrell. 01 November 2022. OASIS Project Specification Draft 01. https://docs.oasis-open-projects.org/oca/Pace/v1.0.0/psd01/Pace-v1.0.0-psd01.html. Latest stage: https://docs.oasis-open-projects.org/oca/Pace/v1.0.0/Pace-v1.0.0.html.
 
 -------
 
@@ -92,9 +127,9 @@ For complete copyright information please see the Notices section in the Appendi
 <!-- All text is normative unless otherwise labeled -->
 
 
-Here is a customized command line which will generate HTML from this markdown file (named PaceArch-v1.0.0-psd01.md), if needed:
+Here is a customized command line which will generate HTML from this markdown file (named Pace-v1.0.0-psd01.md), if needed:
 
-pandoc -f gfm -t html PaceArch-v1.0.0-psd01.md -c styles/markdown-styles-v1.7.3a.css --toc --toc-depth=5 -s -o PaceArch-v1.0.0-psd01.html --metadata title="PACE Architecture Specification Version 1.0.0"
+pandoc -f gfm -t html Pace-v1.0.0-psd01.md -c styles/markdown-styles-v1.7.3a.css --toc --toc-depth=5 -s -o Pace-v1.0.0-psd01.html --metadata title="PACE Specification Version 1.0.0"
 
 NOTES:
 - The two .css files included in the "styles" directory are also online:
@@ -182,7 +217,7 @@ text.
 | **content** | Message body as specified by content_type and msg_type. |
 
 Here is a reference to the table caption:
-Please see [Table 1-5 or other meaningful label](#table-1-5-see-reference-label-construction) 
+Please see [Table 1-5 or other meaningful label](#table-1-5-see-reference-label-construction)
 
 
 ### 1.3.3 Lists
@@ -251,7 +286,7 @@ Note the actual backticks will not appear in the HTML format. If it's necessary 
 }
 ```
 
-Text to be highlighted as code can also be surrounded by a single "backtick" character: 
+Text to be highlighted as code can also be surrounded by a single "backtick" character:
 `code text`
 
 ## 1.4 Page Breaks
